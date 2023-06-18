@@ -25,10 +25,13 @@
         private void InitializeComponent() {
             this.titleLabel = new System.Windows.Forms.Label();
             this.addPlayerBox = new System.Windows.Forms.GroupBox();
+            this.startPickingButton = new System.Windows.Forms.Button();
             this.addPlayerInput = new System.Windows.Forms.TextBox();
             this.addPlayerButton = new System.Windows.Forms.Button();
-            this.playersPanel = new System.Windows.Forms.TableLayoutPanel();
+            this.playersPanel = new System.Windows.Forms.Panel();
+            this.playersGroupBox = new System.Windows.Forms.GroupBox();
             this.addPlayerBox.SuspendLayout();
+            this.playersGroupBox.SuspendLayout();
             this.SuspendLayout();
             // 
             // titleLabel
@@ -44,6 +47,7 @@
             // 
             // addPlayerBox
             // 
+            this.addPlayerBox.Controls.Add(this.startPickingButton);
             this.addPlayerBox.Controls.Add(this.addPlayerInput);
             this.addPlayerBox.Controls.Add(this.titleLabel);
             this.addPlayerBox.Controls.Add(this.addPlayerButton);
@@ -53,6 +57,17 @@
             this.addPlayerBox.TabIndex = 2;
             this.addPlayerBox.TabStop = false;
             this.addPlayerBox.Click += new System.EventHandler(this.addPlayerBox_Click);
+            // 
+            // startPickingButton
+            // 
+            this.startPickingButton.Location = new System.Drawing.Point(279, 214);
+            this.startPickingButton.Name = "startPickingButton";
+            this.startPickingButton.Size = new System.Drawing.Size(147, 48);
+            this.startPickingButton.TabIndex = 2;
+            this.startPickingButton.Text = "Перейти к пикам";
+            this.startPickingButton.UseVisualStyleBackColor = true;
+            this.startPickingButton.Click += new System.EventHandler(this.startPickingButton_Click);
+            this.startPickingButton.Enabled = false;
             // 
             // addPlayerInput
             // 
@@ -78,37 +93,38 @@
             // 
             // playersPanel
             // 
-            this.playersPanel.ColumnCount = 6;
-            this.playersPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.playersPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.playersPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.playersPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.playersPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.playersPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.playersPanel.GrowStyle = System.Windows.Forms.TableLayoutPanelGrowStyle.FixedSize;
-            this.playersPanel.Location = new System.Drawing.Point(0, 473);
+            this.playersPanel.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.playersPanel.Location = new System.Drawing.Point(15, 35);
             this.playersPanel.Name = "playersPanel";
-            this.playersPanel.RowCount = 2;
-            this.playersPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.playersPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.playersPanel.Size = new System.Drawing.Size(1197, 294);
+            this.playersPanel.Size = new System.Drawing.Size(1165, 280);
             this.playersPanel.TabIndex = 3;
-            this.playersPanel.Visible = true;
-            this.playersPanel.Margin = new System.Windows.Forms.Padding(10,0,10,0);
+            // 
+            // playersGroupBox
+            // 
+            this.playersGroupBox.Controls.Add(this.playersPanel);
+            this.playersGroupBox.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.playersGroupBox.Location = new System.Drawing.Point(0, 435);
+            this.playersGroupBox.Name = "playersGroupBox";
+            this.playersGroupBox.Padding = new System.Windows.Forms.Padding(15, 0, 15, 15);
+            this.playersGroupBox.Size = new System.Drawing.Size(1195, 330);
+            this.playersGroupBox.TabIndex = 4;
+            this.playersGroupBox.TabStop = false;
+            this.playersGroupBox.Text = "Игроки";
             // 
             // AddPlayersForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1195, 765);
-            this.Controls.Add(this.playersPanel);
+            this.Controls.Add(this.playersGroupBox);
             this.Controls.Add(this.addPlayerBox);
             this.Name = "AddPlayersForm";
             this.Text = "AddPlayersForm";
-            this.Click += new System.EventHandler(this.AddPlayersForm_Click);
             this.Load += new System.EventHandler(this.AddPlayersForm_Load);
+            this.Click += new System.EventHandler(this.AddPlayersForm_Click);
             this.addPlayerBox.ResumeLayout(false);
             this.addPlayerBox.PerformLayout();
+            this.playersGroupBox.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -118,6 +134,8 @@
         private GroupBox addPlayerBox;
         private TextBox addPlayerInput;
         private Button addPlayerButton;
-        private TableLayoutPanel playersPanel;
+        private Panel playersPanel;
+        private Button startPickingButton;
+        private GroupBox playersGroupBox;
     }
 }

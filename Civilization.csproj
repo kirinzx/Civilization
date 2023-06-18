@@ -11,6 +11,7 @@
   <ItemGroup>
     <None Remove="Resources\allCivs.json" />
     <None Remove="Resources\allMaps.txt" />
+    <None Remove="Resources\appIcon.png" />
     <None Remove="Resources\civsFlags\america.png" />
     <None Remove="Resources\civsFlags\arabia.png" />
     <None Remove="Resources\civsFlags\assyria.png" />
@@ -190,6 +191,9 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
     <EmbeddedResource Include="Resources\allMaps.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\appIcon.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
     <EmbeddedResource Include="Resources\civsFlags\america.png">
@@ -715,6 +719,12 @@
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
       <DependentUpon>Resource1.resx</DependentUpon>
+    </Compile>
+    <Compile Update="PickCivsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="AddSettingsForm.cs">
+      <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
 
