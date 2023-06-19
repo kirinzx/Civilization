@@ -2,7 +2,7 @@
 
 namespace Civilization; 
 
-partial class AddSettingsForm {
+partial class PickMapsForm {
     /// <summary>
     /// Required designer variable.
     /// </summary>
@@ -30,8 +30,8 @@ partial class AddSettingsForm {
         this.components = new System.ComponentModel.Container();
         this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
         this.ClientSize = new System.Drawing.Size(800, 450);
-        this.Load += new EventHandler(AddSettingsForm_Load);
-        this.Text = "AddSettingsForm";
+        this.Click += new EventHandler(this.PickMapsForm_Load);
+        this.Text = "PickMapsForm";
     }
 
     #endregion

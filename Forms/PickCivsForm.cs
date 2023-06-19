@@ -1,17 +1,11 @@
-﻿using System.ComponentModel;
-using System.Reflection;
-using System.Resources;
-using System.Windows.Forms;
-using Newtonsoft.Json.Linq;
-
-namespace Civilization; 
+﻿namespace Civilization; 
 
 public partial class PickCivsForm : Form {
     private List<Player> playersList;
     private List<TableLayoutPanel> civPanelList;
     private TableLayoutPanel playersTable1;
     private TableLayoutPanel playersTable2;
-    private Dictionary<string, string> playerCiv;
+    private Dictionary<Player, Civilization> playerCiv;
     private bool pickingStage;
     private bool banningStage;
 
@@ -23,14 +17,14 @@ public partial class PickCivsForm : Form {
         this.civPanelList = new();
         this.playersTable1 = playersTable1;
         this.playersTable2 = playersTable2;
-        this.Icon = ApplicationService.icon;
         InitializeComponent();
+        playersPanel.Controls.AddRange(new []{playersTable1,playersTable2});
+        this.Icon = ApplicationService.icon;
+        MaximizeBox = false;
+        MinimizeBox = false;
     }
 
     private void PickCivsForm_Load(object sender,EventArgs e) {
-        MaximizeBox = false;
-        MinimizeBox = false;
-        playersPanel.Controls.AddRange(new []{playersTable1,playersTable2});
         generateCivs();
         makeOrder();
         banningStage = true;
@@ -86,12 +80,15 @@ public partial class PickCivsForm : Form {
                     playerPick.isPicking = false;
                     playerPick.picked = true;
                     civPanel.isPicked = true;
-                    playerCiv.Add(playerPick.name,civPanel.name);
+                    playerCiv.Add(playerPick,civPanel);
                     picking();
                 }
                 catch {
+                    foreach (Civilization civ in playerCiv.Values) {
+                        civ.isPicked = false;
+                    }
                     ApplicationService.playerCiv = this.playerCiv;
-                    var AddSettingsForm = new AddSettingsForm();
+                    var AddSettingsForm = new AddSettingsForm(playersTable1,playersTable2);
                     AddSettingsForm.Location = this.Location;
                     AddSettingsForm.StartPosition = FormStartPosition.Manual;
                     AddSettingsForm.FormClosing += delegate { this.Close(); };
@@ -105,24 +102,7 @@ public partial class PickCivsForm : Form {
 
     private void makeOrder() {
         playersList = ApplicationService.getSampleFromList(playersList, playersList.Count);
-        int numOfPlayers = playersList.Count;
-        int firstBunchFlag;
-        int secondBunchFlag;
-        if (numOfPlayers % 2 == 0) {
-            firstBunchFlag = numOfPlayers / 2;
-            secondBunchFlag = firstBunchFlag;
-        }
-        else {
-            firstBunchFlag = numOfPlayers / 2 + 1;
-            secondBunchFlag = numOfPlayers - (numOfPlayers / 2 + 1) + 1;
-        }
-        Player[] firstBunchPlayers = playersList.ToArray()[..firstBunchFlag];
-        Player[] secondBunchPlayers = playersList.ToArray()[secondBunchFlag..];
-        
-        playersTable1.Controls.Clear();
-        playersTable2.Controls.Clear();
-        playersTable1.Controls.AddRange(firstBunchPlayers);
-        playersTable2.Controls.AddRange(secondBunchPlayers);
+        ApplicationService.addPlayersToTables(playersList,playersTable1,playersTable2);
     }
     
     private void generateCivs() {
@@ -190,68 +170,40 @@ public partial class PickCivsForm : Form {
     }
 
     private void renderCivs(List<string> civList) {
-        using (ResXResourceSet rxSet = new ResXResourceSet(ApplicationService.ResxFile)) {
-            JObject civsJson = ApplicationService.allCivsJson;
-            if (civPanelList.Count == 1) {
-                List<Civilization> civControls = new List<Civilization>();
-                foreach (string civ in civList) {
-                    string civFlagPath = civsJson[civ]["Флаг"].Value<string>();
-                    Image civFlag = (Image)rxSet.GetObject(civFlagPath.Split("/")[1].Split(".")[0]);
-                    Civilization civPanel = generateCivTable(civ, civFlag);
-                    civControls.Add(civPanel);
-                }
-                civPanelList.First().Controls.AddRange(civControls.ToArray());
+        if (civPanelList.Count == 1) {
+            List<Civilization> civControls = new List<Civilization>();
+            foreach (string civ in civList) {
+                Civilization civPanel = generateCivTable(civ);
+                civControls.Add(civPanel);
             }
-            else {
-                List<Civilization> civControls1 = new();
-                string[] civArr = civList.ToArray();
-                int flag = civPanelList.First().ColumnCount * 3;
-                foreach (string civ in civArr[..]) {
-                    string civFlagPath = civsJson[civ]["Флаг"].Value<string>();
-                    Image civFlag = (Image)rxSet.GetObject(civFlagPath.Split("/")[1].Split(".")[0]);
-                    Civilization civPanel = generateCivTable(civ, civFlag);
-                    civControls1.Add(civPanel);
-                }
-                civPanelList.First().Controls.AddRange(civControls1.ToArray());
-                List<Civilization> civControls2 = new();
-                foreach (string civ in civArr[flag..]) {
-                    string civFlagPath = civsJson[civ]["Флаг"].Value<string>();
-                    Image civFlag = (Image)rxSet.GetObject(civFlagPath.Split("/")[1].Split(".")[0]);
-                    Civilization civPanel = generateCivTable(civ, civFlag);
-                    civControls2.Add(civPanel);
-                }
-                civPanelList.Last().Controls.AddRange(civControls2.ToArray());
+            civPanelList.First().Controls.AddRange(civControls.ToArray());
+        }
+        else {
+            List<Civilization> civControls1 = new();
+            string[] civArr = civList.ToArray();
+            int flag = civPanelList.First().ColumnCount * 3;
+            foreach (string civ in civArr[..]) {
+                Civilization civPanel = generateCivTable(civ);
+                civControls1.Add(civPanel);
             }
+            civPanelList.First().Controls.AddRange(civControls1.ToArray());
+            List<Civilization> civControls2 = new();
+            foreach (string civ in civArr[flag..]) {
+                Civilization civPanel = generateCivTable(civ);
+                civControls2.Add(civPanel);
+            }
+            civPanelList.Last().Controls.AddRange(civControls2.ToArray());
+            
         }
     }
-    private Civilization generateCivTable(string civ,Image civImage) {
-        Civilization civPanel = new(civ) {
-            RowCount = 2,
-            ColumnCount = 1,
-            BorderStyle = BorderStyle.FixedSingle,
-            Margin = new Padding(0),
-            Height = playersPanel.Height / 2,
-            GrowStyle = TableLayoutPanelGrowStyle.FixedSize,
-            Dock = DockStyle.Fill,
-        };
-        civPanel.Margin = new Padding(3);
-        civPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50));
-        civPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50));
+    private Civilization generateCivTable(string civ) {
+        Civilization civPanel = new(civ);
+        civPanel.Height = playersPanel.Height / 2;
         
-        PictureBox civFlag = new() {
-            Image = civImage,
-            SizeMode = PictureBoxSizeMode.Zoom,
-            Dock = DockStyle.Fill,
-        };
-        Label civLabel = new();
-        civLabel.Text = civ;
-        civLabel.TextAlign = ContentAlignment.MiddleCenter;
-        civLabel.Dock = DockStyle.Fill;
-        civPanel.Controls.Add(civFlag);
-        civPanel.Controls.Add(civLabel);
         civPanel.Click += new EventHandler(doToCiv);
-        civFlag.Click += new EventHandler(doToCiv);
-        civLabel.Click += new EventHandler(doToCiv);
+        foreach (Control control in civPanel.Controls) {
+            control.Click += new EventHandler(doToCiv);
+        }
         return civPanel;
     }
     private int getClosestDivededOnThree(int num) {

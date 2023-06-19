@@ -1,4 +1,7 @@
-﻿namespace Civilization; 
+﻿using System.Resources;
+using KGySoft.Resources;
+
+namespace Civilization; 
 
 public class Player : TableLayoutPanel {
     private bool _picked;
@@ -51,6 +54,25 @@ public class Player : TableLayoutPanel {
         this._picked = picked;
         this._banned = banned;
         this._name = name;
+        RowCount = 2;
+        ColumnCount = 1;
+        
+        BorderStyle = BorderStyle.FixedSingle;
+        GrowStyle = TableLayoutPanelGrowStyle.FixedSize;
+        Dock = DockStyle.Fill;
+        RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50));
+        RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50));
+        PictureBox playerIcon = new() {
+            Image = (Image)ApplicationService.resourceManager.GetObject("profileIcon2"),
+            SizeMode = PictureBoxSizeMode.Zoom,
+            Dock = DockStyle.Fill,
+        };
+        Controls.Add(playerIcon);
+        Label playerNameLabel = new();
+        playerNameLabel.Text = name;
+        playerNameLabel.TextAlign = ContentAlignment.MiddleCenter;
+        playerNameLabel.Dock = DockStyle.Fill;
+        Controls.Add(playerNameLabel);
         this.Paint += new PaintEventHandler(paint);
     }
 

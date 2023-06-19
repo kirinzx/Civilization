@@ -28,31 +28,19 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.allCivsPanel = new System.Windows.Forms.FlowLayoutPanel();
             this.civInfoPanel = new System.Windows.Forms.FlowLayoutPanel();
             this.startGameButton = new System.Windows.Forms.Button();
+            this.allCivsPanel = new System.Windows.Forms.FlowLayoutPanel();
             this.SuspendLayout();
-            // 
-            // allCivsPanel
-            // 
-            this.allCivsPanel.AutoScroll = true;
-            this.allCivsPanel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.allCivsPanel.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
-            this.allCivsPanel.Location = new System.Drawing.Point(0, -2);
-            this.allCivsPanel.Margin = new System.Windows.Forms.Padding(0);
-            this.allCivsPanel.Name = "allCivsPanel";
-            this.allCivsPanel.Size = new System.Drawing.Size(455, 764);
-            this.allCivsPanel.TabIndex = 0;
-            this.allCivsPanel.WrapContents = false;
             // 
             // civInfoPanel
             // 
             this.civInfoPanel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.civInfoPanel.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
-            this.civInfoPanel.Location = new System.Drawing.Point(455, -2);
+            this.civInfoPanel.Location = new System.Drawing.Point(455, 3);
             this.civInfoPanel.Margin = new System.Windows.Forms.Padding(0);
             this.civInfoPanel.Name = "civInfoPanel";
-            this.civInfoPanel.Size = new System.Drawing.Size(739, 656);
+            this.civInfoPanel.Size = new System.Drawing.Size(739, 651);
             this.civInfoPanel.TabIndex = 1;
             // 
             // startGameButton
@@ -67,27 +55,37 @@
             this.startGameButton.UseVisualStyleBackColor = true;
             this.startGameButton.Click += new System.EventHandler(this.startGameButton_Click);
             // 
+            // allCivsPanel
+            // 
+            this.allCivsPanel.AutoScroll = true;
+            this.allCivsPanel.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
+            this.allCivsPanel.Location = new System.Drawing.Point(1, 3);
+            this.allCivsPanel.Margin = new System.Windows.Forms.Padding(0);
+            this.allCivsPanel.Name = "allCivsPanel";
+            this.allCivsPanel.Size = new System.Drawing.Size(451, 759);
+            this.allCivsPanel.TabIndex = 3;
+            this.allCivsPanel.WrapContents = false;
+            // 
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(120F, 120F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
-            this.AutoSize = true;
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1195, 765);
+            this.Controls.Add(this.allCivsPanel);
             this.Controls.Add(this.civInfoPanel);
             this.Controls.Add(this.startGameButton);
-            this.Controls.Add(this.allCivsPanel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "MainForm";
             this.Text = "Civilization";
             this.Load += new System.EventHandler(this.MainForm_Load);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
-
-        private FlowLayoutPanel allCivsPanel;
         private FlowLayoutPanel civInfoPanel;
         private Button startGameButton;
+        private FlowLayoutPanel allCivsPanel;
     }
 }

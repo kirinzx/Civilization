@@ -1,29 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Resources;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-using Newtonsoft.Json.Linq;
-
-namespace Civilization {
+﻿namespace Civilization {
     public partial class AddPlayersForm : Form {
         private List<Player> playersControlList = new List<Player>();
         private TableLayoutPanel playersTable1 = new TableLayoutPanel();
         private TableLayoutPanel playersTable2 = new TableLayoutPanel();
         public AddPlayersForm() {
-            this.Icon = ApplicationService.icon;
             InitializeComponent();
+            this.Icon = ApplicationService.icon;
+            MaximizeBox = false;
+            MinimizeBox = false;
         }
 
         private void AddPlayersForm_Load(object sender, EventArgs e) {
-            MaximizeBox = false;
-            MinimizeBox = false;
-            
             playersTable1.RowCount = 1;
             playersTable1.Dock = DockStyle.Top;
             playersTable1.RowStyles.Add(new RowStyle(SizeType.Percent, 100));
@@ -73,7 +60,7 @@ namespace Civilization {
                 if (playerName.Trim().Length > 0) {
                     playersControlList.Add(createPlayer(playerName));
                     changePlayersPanels();
-                    renderPlayersPanels();
+                    ApplicationService.addPlayersToTables(playersControlList,playersTable1,playersTable2);
                     addPlayerInput.Text = "";
                     if (playersControlList.Count > 1) {
                         startPickingButton.Enabled = true;
@@ -110,50 +97,9 @@ namespace Civilization {
                 playersTable2.ColumnStyles.Add(cs);
             }
         }
-
-        public void renderPlayersPanels() {
-            int numOfPlayers = playersControlList.Count;
-            int firstBunchFlag;
-            int secondBunchFlag;
-            if (numOfPlayers % 2 == 0) {
-                firstBunchFlag = numOfPlayers / 2;
-                secondBunchFlag = firstBunchFlag;
-            }
-            else {
-                firstBunchFlag = numOfPlayers / 2 + 1;
-                secondBunchFlag = numOfPlayers - (numOfPlayers / 2 + 1) + 1;
-            }
-            Player[] firstBunchPlayers = playersControlList.ToArray()[..firstBunchFlag];
-            Player[] secondBunchPlayers = playersControlList.ToArray()[secondBunchFlag..];
-            playersTable1.Controls.AddRange(firstBunchPlayers);
-            playersTable2.Controls.AddRange(secondBunchPlayers);
-        }
+        
         public Player createPlayer(string playerName) {
-            Player player = new(playerName) {
-                RowCount = 2,
-                ColumnCount = 1,
-                BorderStyle = BorderStyle.FixedSingle,
-                Margin = new Padding(0),
-                Height = playersPanel.Height / 2,
-                GrowStyle = TableLayoutPanelGrowStyle.FixedSize,
-                Dock = DockStyle.Fill,
-            };
-            player.Margin = new Padding(3);
-            player.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50));
-            player.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50));
-            using (ResXResourceSet resxSet = new ResXResourceSet(ApplicationService.ResxFile)) {
-                PictureBox playerIcon = new() {
-                    Image = (Image)resxSet.GetObject("profileIcon2"),
-                    SizeMode = PictureBoxSizeMode.Zoom,
-                    Dock = DockStyle.Fill,
-                };
-                player.Controls.Add(playerIcon);
-            }
-            Label playerNameLabel = new();
-            playerNameLabel.Text = playerName;
-            playerNameLabel.TextAlign = ContentAlignment.MiddleCenter;
-            playerNameLabel.Dock = DockStyle.Fill;
-            player.Controls.Add(playerNameLabel);
+            Player player = new(playerName);
             return player;
         }
 

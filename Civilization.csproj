@@ -9,9 +9,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Resources\allCivs.json" />
-    <None Remove="Resources\allMaps.txt" />
-    <None Remove="Resources\appIcon.png" />
     <None Remove="Resources\civsFlags\america.png" />
     <None Remove="Resources\civsFlags\arabia.png" />
     <None Remove="Resources\civsFlags\assyria.png" />
@@ -187,15 +184,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Include="Resources\allCivs.json">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Resources\allMaps.txt">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Resources\appIcon.png">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
     <EmbeddedResource Include="Resources\civsFlags\america.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
@@ -712,24 +700,54 @@
     <EmbeddedResource Include="Resources\guiIcons\profileIcon2.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
+    <EmbeddedResource Update="Resource1.resx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <None Remove="Resources\allCivs.json" />
+    <EmbeddedResource Include="Resources\allCivs.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <None Remove="Resources\allMaps.txt" />
+    <EmbeddedResource Include="Resources\allMaps.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <None Remove="Resources\appIcon.png" />
+    <EmbeddedResource Include="Resources\appIcon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Update="Resource1.Designer.cs">
+    <Compile Update="Resources\Resource1.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
       <DependentUpon>Resource1.resx</DependentUpon>
     </Compile>
-    <Compile Update="PickCivsForm.cs">
+    <Compile Update="Forms\AddPlayersForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="AddSettingsForm.cs">
+    <Compile Update="Forms\AddSettingsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\PickCivsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="HelpClasses\Civilization.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="HelpClasses\Player.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Forms\PickMapsForm.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="Resource1.resx">
+    <EmbeddedResource Update="Resources\Resource1.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resource1.Designer.cs</LastGenOutput>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -737,6 +755,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="KGySoft.CoreLibraries" Version="7.2.0" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
   </ItemGroup>
 
