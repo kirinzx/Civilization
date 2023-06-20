@@ -88,13 +88,7 @@ public partial class PickCivsForm : Form {
                         civ.isPicked = false;
                     }
                     ApplicationService.playerCiv = this.playerCiv;
-                    var AddSettingsForm = new AddSettingsForm(playersTable1,playersTable2);
-                    AddSettingsForm.Location = this.Location;
-                    AddSettingsForm.StartPosition = FormStartPosition.Manual;
-                    AddSettingsForm.FormClosing += delegate { this.Close(); };
-                    AddSettingsForm.Text = this.Text;
-                    AddSettingsForm.Show();
-                    this.Hide();
+                    ApplicationService.openNewForm(new AddSettingsForm(playersTable1,playersTable2),this);
                 }
             }
         }

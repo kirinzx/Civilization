@@ -104,13 +104,7 @@
         }
 
         private void startPickingButton_Click(object sender, EventArgs e) {
-            var addPlayersForm = new PickCivsForm(playersControlList,playersTable1,playersTable2);
-            addPlayersForm.Location = this.Location;
-            addPlayersForm.StartPosition = FormStartPosition.Manual;
-            addPlayersForm.FormClosing += delegate { this.Close(); };
-            addPlayersForm.Text = this.Text;
-            addPlayersForm.Show();
-            this.Hide();
+            ApplicationService.openNewForm(new PickCivsForm(playersControlList,playersTable1,playersTable2),this);
         }
     }
 }

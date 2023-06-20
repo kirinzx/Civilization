@@ -54,6 +54,7 @@ partial class AddSettingsForm {
             this.playersCivsGroupBox.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.playersCivsGroupBox.Location = new System.Drawing.Point(0, 388);
             this.playersCivsGroupBox.Name = "playersCivsGroupBox";
+            this.playersCivsGroupBox.Padding = new System.Windows.Forms.Padding(10, 3, 10, 10);
             this.playersCivsGroupBox.Size = new System.Drawing.Size(1195, 377);
             this.playersCivsGroupBox.TabIndex = 0;
             this.playersCivsGroupBox.TabStop = false;
@@ -61,9 +62,10 @@ partial class AddSettingsForm {
             // 
             // playersCivsPanel
             // 
-            this.playersCivsPanel.Location = new System.Drawing.Point(12, 26);
+            this.playersCivsPanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.playersCivsPanel.Location = new System.Drawing.Point(10, 23);
             this.playersCivsPanel.Name = "playersCivsPanel";
-            this.playersCivsPanel.Size = new System.Drawing.Size(1171, 329);
+            this.playersCivsPanel.Size = new System.Drawing.Size(1175, 344);
             this.playersCivsPanel.TabIndex = 0;
             // 
             // settingsPanel
@@ -114,9 +116,9 @@ partial class AddSettingsForm {
             this.victoriesGroupBox.Controls.Add(this.addVictoryButton);
             this.victoriesGroupBox.Controls.Add(this.victoryTextBox);
             this.victoriesGroupBox.Controls.Add(this.victoriesCheckBoxList);
-            this.victoriesGroupBox.Location = new System.Drawing.Point(345, 12);
+            this.victoriesGroupBox.Location = new System.Drawing.Point(350, 12);
             this.victoriesGroupBox.Name = "victoriesGroupBox";
-            this.victoriesGroupBox.Size = new System.Drawing.Size(276, 370);
+            this.victoriesGroupBox.Size = new System.Drawing.Size(267, 353);
             this.victoriesGroupBox.TabIndex = 1;
             this.victoriesGroupBox.TabStop = false;
             this.victoriesGroupBox.Text = "Варианты победы";
@@ -166,7 +168,7 @@ partial class AddSettingsForm {
             this.settingsGroupBox.Controls.Add(this.settingsCheckBoxList);
             this.settingsGroupBox.Location = new System.Drawing.Point(12, 12);
             this.settingsGroupBox.Name = "settingsGroupBox";
-            this.settingsGroupBox.Size = new System.Drawing.Size(276, 370);
+            this.settingsGroupBox.Size = new System.Drawing.Size(268, 353);
             this.settingsGroupBox.TabIndex = 0;
             this.settingsGroupBox.TabStop = false;
             this.settingsGroupBox.Text = "Настройки";

@@ -56,7 +56,6 @@ public class Player : TableLayoutPanel {
         this._name = name;
         RowCount = 2;
         ColumnCount = 1;
-        
         BorderStyle = BorderStyle.FixedSingle;
         GrowStyle = TableLayoutPanelGrowStyle.FixedSize;
         Dock = DockStyle.Fill;

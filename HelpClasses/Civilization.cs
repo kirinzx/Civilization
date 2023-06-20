@@ -36,6 +36,7 @@ public class Civilization : TableLayoutPanel {
         }
     }
     public Civilization(string name,bool isBanned=false,bool isPicked=false) {
+        compact = GCLargeObjectHeapCompactionMode.CompactOnce;
         _isBanned = isBanned;
         _isPicked = isPicked;
         _name = name;
@@ -44,7 +45,7 @@ public class Civilization : TableLayoutPanel {
         BorderStyle = BorderStyle.FixedSingle;
         GrowStyle = TableLayoutPanelGrowStyle.FixedSize;
         Dock = DockStyle.Fill;
-        
+
         RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50));
         RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50));
         
@@ -67,16 +68,16 @@ public class Civilization : TableLayoutPanel {
         this.Paint += new PaintEventHandler(paint);
     }
     public Civilization(string name, int count, bool isBanned = false, bool isPicked = false) {
+        compact = GCLargeObjectHeapCompactionMode.CompactOnce;
         _isBanned = isBanned;
         _isPicked = isPicked;
         _name = name;
         RowCount = 1;
         ColumnCount = 3;
-        BorderStyle = BorderStyle.FixedSingle;
         for (int i = 0; i < ColumnCount; i++) {
             ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100 / ColumnCount));
         }
-
+        BorderStyle = BorderStyle.FixedSingle;
         Label countLab = new();
         countLab.Text = count + ".";
         countLab.Dock = DockStyle.Fill;
@@ -99,6 +100,7 @@ public class Civilization : TableLayoutPanel {
         Controls.Add(countLab);
         Controls.Add(civFlag);
         Controls.Add(civNameLabel);
+        this.Paint += new PaintEventHandler(paint);
     }
 
     private void paint(object sender, PaintEventArgs e) {

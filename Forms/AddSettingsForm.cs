@@ -38,13 +38,7 @@ public partial class AddSettingsForm : Form {
         foreach (object victory in victoriesCheckBoxList.CheckedItems) {
             victories.Add(victory.ToString());
         }
-        var pickMapsForm = new PickMapsForm(settings,victories);
-        pickMapsForm.Location = Location;
-        pickMapsForm.StartPosition = FormStartPosition.Manual;
-        pickMapsForm.FormClosing += delegate { Close(); };
-        pickMapsForm.Text = this.Text;
-        pickMapsForm.Show();
-        this.Hide();
+        ApplicationService.openNewForm(new PickMapsForm(settings,victories),this);
     }
 
     private void victoryTextBox_GotFocus(object sender, EventArgs e) {

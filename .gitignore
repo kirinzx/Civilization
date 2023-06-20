@@ -7,6 +7,7 @@
 /workspace.xml
 # Rider ignored files
 /.idea.Civilization.iml
+/.idea
 /contentModel.xml
 /projectSettingsUpdater.xml
 /modules.xml

@@ -43,13 +43,7 @@ namespace Civilization{
         }
 
         private void startGameButton_Click(object sender, EventArgs e) {
-            var addPlayersForm = new AddPlayersForm();
-            addPlayersForm.Location = this.Location;
-            addPlayersForm.StartPosition = FormStartPosition.Manual;
-            addPlayersForm.FormClosing += delegate { this.Close(); };
-            addPlayersForm.Text = this.Text;
-            addPlayersForm.Show();
-            this.Hide();
+            ApplicationService.openNewForm(new AddPlayersForm(),this);
         }
 
         private void getCivInfo(object sender,EventArgs e) {

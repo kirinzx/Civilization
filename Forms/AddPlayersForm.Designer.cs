@@ -60,6 +60,7 @@
             // 
             // startPickingButton
             // 
+            this.startPickingButton.Enabled = false;
             this.startPickingButton.Location = new System.Drawing.Point(279, 214);
             this.startPickingButton.Name = "startPickingButton";
             this.startPickingButton.Size = new System.Drawing.Size(147, 48);
@@ -67,7 +68,6 @@
             this.startPickingButton.Text = "Перейти к пикам";
             this.startPickingButton.UseVisualStyleBackColor = true;
             this.startPickingButton.Click += new System.EventHandler(this.startPickingButton_Click);
-            this.startPickingButton.Enabled = false;
             // 
             // addPlayerInput
             // 
@@ -93,10 +93,10 @@
             // 
             // playersPanel
             // 
-            this.playersPanel.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.playersPanel.Location = new System.Drawing.Point(15, 35);
+            this.playersPanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.playersPanel.Location = new System.Drawing.Point(10, 23);
             this.playersPanel.Name = "playersPanel";
-            this.playersPanel.Size = new System.Drawing.Size(1165, 280);
+            this.playersPanel.Size = new System.Drawing.Size(1175, 297);
             this.playersPanel.TabIndex = 3;
             // 
             // playersGroupBox
@@ -105,7 +105,7 @@
             this.playersGroupBox.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.playersGroupBox.Location = new System.Drawing.Point(0, 435);
             this.playersGroupBox.Name = "playersGroupBox";
-            this.playersGroupBox.Padding = new System.Windows.Forms.Padding(15, 0, 15, 15);
+            this.playersGroupBox.Padding = new System.Windows.Forms.Padding(10, 3, 10, 10);
             this.playersGroupBox.Size = new System.Drawing.Size(1195, 330);
             this.playersGroupBox.TabIndex = 4;
             this.playersGroupBox.TabStop = false;

@@ -744,6 +744,9 @@
     <Compile Update="Forms\PickMapsForm.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Forms\LastStageForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
 
   <ItemGroup>
