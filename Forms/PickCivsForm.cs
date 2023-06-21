@@ -120,6 +120,14 @@ public partial class PickCivsForm : Form {
             civPanelList.Add(civsPanel);
             civilizationsPanel.Controls.Add(civsPanel);
         }
+        else if (numOfCivs == 6) {
+            int rowCount = 3;
+            int columnCount = 2;
+            TableLayoutPanel civsPanel = generateTablePanel(rowCount, columnCount);
+            civsPanel.Dock = DockStyle.Fill;
+            civPanelList.Add(civsPanel);
+            civilizationsPanel.Controls.Add(civsPanel);
+        }
         else if (numOfCivs % 4 == 0) {
             int rowCount = 4;
             int columnCount = numOfCivs / 4;

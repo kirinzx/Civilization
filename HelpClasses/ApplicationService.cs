@@ -9,8 +9,8 @@ public class ApplicationService {
     public static Icon icon { get; set; }
     public static TableLayoutPanel playerCiv1 { get; set; }
     public static TableLayoutPanel playerCiv2 { get; set; }
-    public static string setting { get; set; }
-    public static string victory { get; set; }
+    public static Label setting { get; set; }
+    public static Label victory { get; set; }
     public static string gameMap { get; set; }
     public static Dictionary<Player, Civilization> playerCiv { get; set; }
     public static List<string> allCivsList { get; set; }
@@ -77,8 +77,6 @@ public class ApplicationService {
     }
 
     public static void openNewForm(Form newForm, Form currentForm) {
-        /*Form newForm1 = newForm as Form;
-        Form currentForm1 = currentForm as Form;*/
         newForm.Location = currentForm.Location;
         newForm.StartPosition = FormStartPosition.Manual;
         newForm.FormClosing += delegate { currentForm.Close(); };

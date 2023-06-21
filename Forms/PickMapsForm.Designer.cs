@@ -37,8 +37,8 @@ partial class PickMapsForm {
             this.settingsTable = new System.Windows.Forms.TableLayoutPanel();
             this.defaultSettingsLabel = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.completeSetUpButton = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.completeSetUpButton = new System.Windows.Forms.Button();
             this.playersCivsGroupBox.SuspendLayout();
             this.mapsBox.SuspendLayout();
             this.allMapsTable.SuspendLayout();
@@ -132,7 +132,6 @@ partial class PickMapsForm {
             this.gameSettingsBox.Size = new System.Drawing.Size(594, 257);
             this.gameSettingsBox.TabIndex = 3;
             this.gameSettingsBox.TabStop = false;
-            this.gameSettingsBox.Text = "Настройки";
             // 
             // settingsTable
             // 
@@ -167,17 +166,6 @@ partial class PickMapsForm {
             this.panel1.Size = new System.Drawing.Size(460, 88);
             this.panel1.TabIndex = 4;
             // 
-            // completeSetUpButton
-            // 
-            this.completeSetUpButton.Enabled = false;
-            this.completeSetUpButton.Location = new System.Drawing.Point(1055, 303);
-            this.completeSetUpButton.Name = "completeSetUpButton";
-            this.completeSetUpButton.Size = new System.Drawing.Size(130, 59);
-            this.completeSetUpButton.TabIndex = 5;
-            this.completeSetUpButton.Text = "Подтвердить выбор";
-            this.completeSetUpButton.UseVisualStyleBackColor = true;
-            this.completeSetUpButton.Click += new EventHandler(goToTheLastStage);
-            // 
             // label1
             // 
             this.label1.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -187,6 +175,17 @@ partial class PickMapsForm {
             this.label1.Size = new System.Drawing.Size(460, 88);
             this.label1.TabIndex = 0;
             this.label1.Text = "Нажмите на предпочитаемую карту и подтвердите свое решение, кликнув на кнопку";
+            // 
+            // completeSetUpButton
+            // 
+            this.completeSetUpButton.Enabled = false;
+            this.completeSetUpButton.Location = new System.Drawing.Point(1055, 303);
+            this.completeSetUpButton.Name = "completeSetUpButton";
+            this.completeSetUpButton.Size = new System.Drawing.Size(130, 59);
+            this.completeSetUpButton.TabIndex = 5;
+            this.completeSetUpButton.Text = "Подтвердить выбор";
+            this.completeSetUpButton.UseVisualStyleBackColor = true;
+            this.completeSetUpButton.Click += new System.EventHandler(this.goToTheLastStage);
             // 
             // PickMapsForm
             // 

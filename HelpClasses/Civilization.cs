@@ -2,6 +2,8 @@
 using System.Runtime;
 using Newtonsoft.Json.Linq;
 using KGySoft.Resources;
+using Microsoft.VisualBasic;
+
 namespace Civilization; 
 
 public class Civilization : TableLayoutPanel {
@@ -9,7 +11,7 @@ public class Civilization : TableLayoutPanel {
     private bool _isPicked;
     private string _name;
     private GCLargeObjectHeapCompactionMode compact { get; set; }
-
+    public List<CivilizationUnit> civInfoList{get;set;}
     public string name {
         get {
             return _name;
@@ -68,10 +70,12 @@ public class Civilization : TableLayoutPanel {
         this.Paint += new PaintEventHandler(paint);
     }
     public Civilization(string name, int count, bool isBanned = false, bool isPicked = false) {
+        civInfoList = new();
         compact = GCLargeObjectHeapCompactionMode.CompactOnce;
         _isBanned = isBanned;
         _isPicked = isPicked;
         _name = name;
+        getInfo();
         RowCount = 1;
         ColumnCount = 3;
         for (int i = 0; i < ColumnCount; i++) {
@@ -120,6 +124,36 @@ public class Civilization : TableLayoutPanel {
         }
         else {
             ControlPaint.DrawBorder(e.Graphics, e.ClipRectangle, this.BackColor, ButtonBorderStyle.None);
+        }
+    }
+
+    private void getInfo() {
+        foreach(JProperty smth in ApplicationService.allCivsJson[name]) {
+            string unitGeneralName = smth.Name;
+            if (unitGeneralName == "Флаг") {
+                continue;
+            }
+            foreach (JObject unit in smth.Value) {
+                string image = "";
+                string unitName = "";
+                Dictionary<string,string> unitInfo = new();
+                foreach (KeyValuePair<string, JToken> info in unit) {
+                    if (info.Key == "image") {
+                        image = info.Value.ToString();
+                    }
+                    else {
+                        unitName = info.Key;
+                        /*unitInfo = (JObject)info.Value;*/
+                        foreach (KeyValuePair<string, JToken> certainInfo in (JObject)info.Value) {
+                            string unitChar = certainInfo.Key;
+                            string unitCharInfo = certainInfo.Value.ToString();
+                            unitInfo.Add(unitChar,unitCharInfo);
+                        }
+                    }
+                }
+
+                civInfoList.Add(new CivilizationUnit(unitGeneralName, unitName, image, unitInfo));
+            }
         }
     }
 }

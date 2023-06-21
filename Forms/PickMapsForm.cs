@@ -29,7 +29,7 @@ public partial class PickMapsForm : Form {
                 gameMap = map.Text;
         }
 
-        if (gameMap != "") {
+        if (gameMap == "") {
             foreach (Map map in secondBunchMapsTable.Controls) {
                 if (map.isPicked)
                     gameMap = map.Text;
@@ -56,11 +56,10 @@ public partial class PickMapsForm : Form {
     
     private void addSettings() {
         Random random = new();
-        Label settingLabel = new();
         
+        Label settingLabel = new();
         if (settings.Count > 0) {
             string setting = settings.ToArray()[random.Next(0, settings.Count)];
-            ApplicationService.setting = setting;
             settingLabel.Text = "Доп. Настройки: " + setting;
         }
         else {
@@ -69,12 +68,13 @@ public partial class PickMapsForm : Form {
         
         settingLabel.Dock = DockStyle.Fill;
         settingLabel.AutoSize = false;
+        ApplicationService.setting = settingLabel;
         settingsTable.Controls.Add(settingLabel);
-        Label victoryLabel = new();
         
+        
+        Label victoryLabel = new();
         if (victories.Count > 0) {
             string victory = victories.ToArray()[random.Next(0, victories.Count)];
-            ApplicationService.victory = victory;
             victoryLabel.Text = "Исключаемая победа: " + victory;
         }
         
@@ -84,6 +84,7 @@ public partial class PickMapsForm : Form {
         
         victoryLabel.Dock = DockStyle.Fill;
         victoryLabel.AutoSize = false;
+        ApplicationService.victory = victoryLabel;
         settingsTable.Controls.Add(victoryLabel);
         
     }

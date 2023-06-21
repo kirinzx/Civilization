@@ -53,132 +53,134 @@
     <None Remove="Resources\civsFlags\venice.png" />
     <None Remove="Resources\civsFlags\zulu.png" />
     <None Remove="Resources\civStuffIcons\Австрия_Лидер1.png" />
-    <None Remove="Resources\civStuffIcons\Австрия_Уникальное здание1.png" />
-    <None Remove="Resources\civStuffIcons\Австрия_Уникальный юнит1.png" />
+    <None Remove="Resources\civStuffIcons\Австрия_Уникальное_здание1.png" />
+    <None Remove="Resources\civStuffIcons\Австрия_Уникальный_юнит1.png" />
     <None Remove="Resources\civStuffIcons\Америка_Лидер1.png" />
-    <None Remove="Resources\civStuffIcons\Америка_Уникальный юнит1.png" />
-    <None Remove="Resources\civStuffIcons\Америка_Уникальный юнит2.png" />
+    <None Remove="Resources\civStuffIcons\Америка_Уникальный_юнит1.png" />
+    <None Remove="Resources\civStuffIcons\Америка_Уникальный_юнит2.png" />
     <None Remove="Resources\civStuffIcons\Англия_Лидер1.png" />
-    <None Remove="Resources\civStuffIcons\Англия_Уникальный юнит1.png" />
-    <None Remove="Resources\civStuffIcons\Англия_Уникальный юнит2.png" />
+    <None Remove="Resources\civStuffIcons\Англия_Уникальный_юнит1.png" />
+    <None Remove="Resources\civStuffIcons\Англия_Уникальный_юнит2.png" />
     <None Remove="Resources\civStuffIcons\Аравия_Лидер1.png" />
-    <None Remove="Resources\civStuffIcons\Аравия_Уникальное здание1.png" />
-    <None Remove="Resources\civStuffIcons\Аравия_Уникальный юнит1.png" />
+    <None Remove="Resources\civStuffIcons\Аравия_Уникальное_здание1.png" />
+    <None Remove="Resources\civStuffIcons\Аравия_Уникальный_юнит1.png" />
     <None Remove="Resources\civStuffIcons\Ассирия_Лидер1.png" />
-    <None Remove="Resources\civStuffIcons\Ассирия_Уникальное здание1.png" />
-    <None Remove="Resources\civStuffIcons\Ассирия_Уникальный юнит1.png" />
+    <None Remove="Resources\civStuffIcons\Ассирия_Уникальное_здание1.png" />
+    <None Remove="Resources\civStuffIcons\Ассирия_Уникальный_юнит1.png" />
     <None Remove="Resources\civStuffIcons\Ацтеки_Лидер1.png" />
-    <None Remove="Resources\civStuffIcons\Ацтеки_Уникальное здание1.png" />
-    <None Remove="Resources\civStuffIcons\Ацтеки_Уникальный юнит1.png" />
+    <None Remove="Resources\civStuffIcons\Ацтеки_Уникальное_здание1.png" />
+    <None Remove="Resources\civStuffIcons\Ацтеки_Уникальный_юнит1.png" />
     <None Remove="Resources\civStuffIcons\Бразилия_Лидер1.png" />
-    <None Remove="Resources\civStuffIcons\Бразилия_Уникальная постройка1.png" />
-    <None Remove="Resources\civStuffIcons\Бразилия_Уникальный юнит1.png" />
+    <None Remove="Resources\civStuffIcons\Бразилия_Уникальная_постройка1.png" />
+    <None Remove="Resources\civStuffIcons\Бразилия_Уникальный_юнит1.png" />
     <None Remove="Resources\civStuffIcons\Вавилон_Лидер1.png" />
-    <None Remove="Resources\civStuffIcons\Вавилон_Уникальное здание1.png" />
-    <None Remove="Resources\civStuffIcons\Вавилон_Уникальный юнит1.png" />
+    <None Remove="Resources\civStuffIcons\Вавилон_Уникальное_здание1.png" />
+    <None Remove="Resources\civStuffIcons\Вавилон_Уникальный_юнит1.png" />
     <None Remove="Resources\civStuffIcons\Венеция_Лидер1.png" />
-    <None Remove="Resources\civStuffIcons\Венеция_Уникальный юнит2.png" />
+    <None Remove="Resources\civStuffIcons\Венеция_Уникальный_юнит1.png" />
+    <None Remove="Resources\civStuffIcons\Венеция_Уникальный_юнит2.png" />
     <None Remove="Resources\civStuffIcons\Византия_Лидер1.png" />
-    <None Remove="Resources\civStuffIcons\Византия_Уникальный юнит1.png" />
-    <None Remove="Resources\civStuffIcons\Византия_Уникальный юнит2.png" />
+    <None Remove="Resources\civStuffIcons\Византия_Уникальный_юнит1.png" />
+    <None Remove="Resources\civStuffIcons\Византия_Уникальный_юнит2.png" />
     <None Remove="Resources\civStuffIcons\Германия_Лидер1.png" />
-    <None Remove="Resources\civStuffIcons\Германия_Уникальное здание1.png" />
-    <None Remove="Resources\civStuffIcons\Германия_Уникальный юнит1.png" />
+    <None Remove="Resources\civStuffIcons\Германия_Уникальное_здание1.png" />
+    <None Remove="Resources\civStuffIcons\Германия_Уникальный_юнит1.png" />
     <None Remove="Resources\civStuffIcons\Греция_Лидер1.png" />
-    <None Remove="Resources\civStuffIcons\Греция_Уникальный юнит1.png" />
-    <None Remove="Resources\civStuffIcons\Греция_Уникальный юнит2.png" />
+    <None Remove="Resources\civStuffIcons\Греция_Уникальный_юнит1.png" />
+    <None Remove="Resources\civStuffIcons\Греция_Уникальный_юнит2.png" />
     <None Remove="Resources\civStuffIcons\Гунны_Лидер1.png" />
-    <None Remove="Resources\civStuffIcons\Гунны_Уникальный юнит1.png" />
-    <None Remove="Resources\civStuffIcons\Гунны_Уникальный юнит2.png" />
+    <None Remove="Resources\civStuffIcons\Гунны_Уникальный_юнит1.png" />
+    <None Remove="Resources\civStuffIcons\Гунны_Уникальный_юнит2.png" />
     <None Remove="Resources\civStuffIcons\Дания_Лидер1.png" />
-    <None Remove="Resources\civStuffIcons\Дания_Уникальный юнит1.png" />
-    <None Remove="Resources\civStuffIcons\Дания_Уникальный юнит2.png" />
+    <None Remove="Resources\civStuffIcons\Дания_Уникальный_юнит1.png" />
+    <None Remove="Resources\civStuffIcons\Дания_Уникальный_юнит2.png" />
     <None Remove="Resources\civStuffIcons\Египет_Лидер1.png" />
-    <None Remove="Resources\civStuffIcons\Египет_Уникальное здание1.png" />
-    <None Remove="Resources\civStuffIcons\Египет_Уникальный юнит1.png" />
+    <None Remove="Resources\civStuffIcons\Египет_Уникальное_здание1.png" />
+    <None Remove="Resources\civStuffIcons\Египет_Уникальный_юнит1.png" />
     <None Remove="Resources\civStuffIcons\Зулусы_Лидер1.png" />
-    <None Remove="Resources\civStuffIcons\Зулусы_Уникальное здание1.png" />
-    <None Remove="Resources\civStuffIcons\Зулусы_Уникальный юнит1.png" />
+    <None Remove="Resources\civStuffIcons\Зулусы_Уникальное_здание1.png" />
+    <None Remove="Resources\civStuffIcons\Зулусы_Уникальный_юнит1.png" />
     <None Remove="Resources\civStuffIcons\Индия_Лидер1.png" />
-    <None Remove="Resources\civStuffIcons\Индия_Уникальное здание1.png" />
-    <None Remove="Resources\civStuffIcons\Индия_Уникальный юнит1.png" />
+    <None Remove="Resources\civStuffIcons\Индия_Уникальное_здание1.png" />
+    <None Remove="Resources\civStuffIcons\Индия_Уникальный_юнит1.png" />
     <None Remove="Resources\civStuffIcons\Индонезия_Лидер1.png" />
-    <None Remove="Resources\civStuffIcons\Индонезия_Уникальное здание1.png" />
-    <None Remove="Resources\civStuffIcons\Индонезия_Уникальный юнит1.png" />
+    <None Remove="Resources\civStuffIcons\Индонезия_Уникальное_здание1.png" />
+    <None Remove="Resources\civStuffIcons\Индонезия_Уникальный_юнит1.png" />
     <None Remove="Resources\civStuffIcons\Инки_Лидер1.png" />
-    <None Remove="Resources\civStuffIcons\Инки_Уникальная постройка1.png" />
-    <None Remove="Resources\civStuffIcons\Инки_Уникальный юнит1.png" />
+    <None Remove="Resources\civStuffIcons\Инки_Уникальная_постройка1.png" />
+    <None Remove="Resources\civStuffIcons\Инки_Уникальный_юнит1.png" />
     <None Remove="Resources\civStuffIcons\Ирокезы_Лидер1.png" />
-    <None Remove="Resources\civStuffIcons\Ирокезы_Уникальное здание1.png" />
-    <None Remove="Resources\civStuffIcons\Ирокезы_Уникальный юнит1.png" />
+    <None Remove="Resources\civStuffIcons\Ирокезы_Уникальное_здание1.png" />
+    <None Remove="Resources\civStuffIcons\Ирокезы_Уникальный_юнит1.png" />
     <None Remove="Resources\civStuffIcons\Испания_Лидер1.png" />
-    <None Remove="Resources\civStuffIcons\Испания_Уникальный юнит1.png" />
-    <None Remove="Resources\civStuffIcons\Испания_Уникальный юнит2.png" />
+    <None Remove="Resources\civStuffIcons\Испания_Уникальный_юнит1.png" />
+    <None Remove="Resources\civStuffIcons\Испания_Уникальный_юнит2.png" />
     <None Remove="Resources\civStuffIcons\Карфаген_Лидер1.png" />
-    <None Remove="Resources\civStuffIcons\Карфаген_Уникальный юнит1.png" />
-    <None Remove="Resources\civStuffIcons\Карфаген_Уникальный юнит2.png" />
+    <None Remove="Resources\civStuffIcons\Карфаген_Уникальный_юнит1.png" />
+    <None Remove="Resources\civStuffIcons\Карфаген_Уникальный_юнит2.png" />
     <None Remove="Resources\civStuffIcons\Кельты_Лидер1.png" />
-    <None Remove="Resources\civStuffIcons\Кельты_Уникальное здание1.png" />
-    <None Remove="Resources\civStuffIcons\Кельты_Уникальный юнит1.png" />
+    <None Remove="Resources\civStuffIcons\Кельты_Уникальное_здание1.png" />
+    <None Remove="Resources\civStuffIcons\Кельты_Уникальный_юнит1.png" />
     <None Remove="Resources\civStuffIcons\Китай_Лидер1.png" />
-    <None Remove="Resources\civStuffIcons\Китай_Уникальное здание1.png" />
-    <None Remove="Resources\civStuffIcons\Китай_Уникальный юнит1.png" />
+    <None Remove="Resources\civStuffIcons\Китай_Уникальное_здание1.png" />
+    <None Remove="Resources\civStuffIcons\Китай_Уникальный_юнит1.png" />
     <None Remove="Resources\civStuffIcons\Корея_Лидер1.png" />
-    <None Remove="Resources\civStuffIcons\Корея_Уникальный юнит1.png" />
-    <None Remove="Resources\civStuffIcons\Корея_Уникальный юнит2.png" />
+    <None Remove="Resources\civStuffIcons\Корея_Уникальный_юнит1.png" />
+    <None Remove="Resources\civStuffIcons\Корея_Уникальный_юнит2.png" />
     <None Remove="Resources\civStuffIcons\Майя_Лидер1.png" />
-    <None Remove="Resources\civStuffIcons\Майя_Уникальное здание1.png" />
-    <None Remove="Resources\civStuffIcons\Майя_Уникальный юнит1.png" />
+    <None Remove="Resources\civStuffIcons\Майя_Уникальное_здание1.png" />
+    <None Remove="Resources\civStuffIcons\Майя_Уникальный_юнит1.png" />
     <None Remove="Resources\civStuffIcons\Марокко_Лидер1.png" />
-    <None Remove="Resources\civStuffIcons\Марокко_Уникальная постройка1.png" />
-    <None Remove="Resources\civStuffIcons\Марокко_Уникальный юнит1.png" />
+    <None Remove="Resources\civStuffIcons\Марокко_Уникальная_постройка1.png" />
+    <None Remove="Resources\civStuffIcons\Марокко_Уникальный_юнит1.png" />
     <None Remove="Resources\civStuffIcons\Монголия_Лидер1.png" />
-    <None Remove="Resources\civStuffIcons\Монголия_Уникальный юнит1.png" />
+    <None Remove="Resources\civStuffIcons\Монголия_Уникальный_юнит1.png" />
+    <None Remove="Resources\civStuffIcons\Монголия_Уникальный_юнит2.png" />
     <None Remove="Resources\civStuffIcons\Нидерланды_Лидер1.png" />
-    <None Remove="Resources\civStuffIcons\Нидерланды_Уникальная постройка1.png" />
-    <None Remove="Resources\civStuffIcons\Нидерланды_Уникальный юнит1.png" />
+    <None Remove="Resources\civStuffIcons\Нидерланды_Уникальная_постройка1.png" />
+    <None Remove="Resources\civStuffIcons\Нидерланды_Уникальный_юнит1.png" />
     <None Remove="Resources\civStuffIcons\Персия_Лидер1.png" />
-    <None Remove="Resources\civStuffIcons\Персия_Уникальное здание1.png" />
-    <None Remove="Resources\civStuffIcons\Персия_Уникальный юнит1.png" />
+    <None Remove="Resources\civStuffIcons\Персия_Уникальное_здание1.png" />
+    <None Remove="Resources\civStuffIcons\Персия_Уникальный_юнит1.png" />
     <None Remove="Resources\civStuffIcons\Полинезия_Лидер1.png" />
-    <None Remove="Resources\civStuffIcons\Полинезия_Уникальная постройка1.png" />
-    <None Remove="Resources\civStuffIcons\Полинезия_Уникальный юнит1.png" />
+    <None Remove="Resources\civStuffIcons\Полинезия_Уникальная_постройка1.png" />
+    <None Remove="Resources\civStuffIcons\Полинезия_Уникальный_юнит1.png" />
     <None Remove="Resources\civStuffIcons\Польша_Лидер1.png" />
-    <None Remove="Resources\civStuffIcons\Польша_Уникальное здание1.png" />
-    <None Remove="Resources\civStuffIcons\Польша_Уникальный юнит1.png" />
+    <None Remove="Resources\civStuffIcons\Польша_Уникальное_здание1.png" />
+    <None Remove="Resources\civStuffIcons\Польша_Уникальный_юнит1.png" />
     <None Remove="Resources\civStuffIcons\Португалия_Лидер1.png" />
-    <None Remove="Resources\civStuffIcons\Португалия_Уникальная постройка1.png" />
-    <None Remove="Resources\civStuffIcons\Португалия_Уникальный юнит1.png" />
+    <None Remove="Resources\civStuffIcons\Португалия_Уникальная_постройка1.png" />
+    <None Remove="Resources\civStuffIcons\Португалия_Уникальный_юнит1.png" />
     <None Remove="Resources\civStuffIcons\Рим_Лидер1.png" />
-    <None Remove="Resources\civStuffIcons\Рим_Уникальный юнит1.png" />
-    <None Remove="Resources\civStuffIcons\Рим_Уникальный юнит2.png" />
+    <None Remove="Resources\civStuffIcons\Рим_Уникальный_юнит1.png" />
+    <None Remove="Resources\civStuffIcons\Рим_Уникальный_юнит2.png" />
     <None Remove="Resources\civStuffIcons\Россия_Лидер1.png" />
-    <None Remove="Resources\civStuffIcons\Россия_Уникальное здание1.png" />
-    <None Remove="Resources\civStuffIcons\Россия_Уникальный юнит1.png" />
+    <None Remove="Resources\civStuffIcons\Россия_Уникальное_здание1.png" />
+    <None Remove="Resources\civStuffIcons\Россия_Уникальный_юнит1.png" />
     <None Remove="Resources\civStuffIcons\Сиам_Лидер1.png" />
-    <None Remove="Resources\civStuffIcons\Сиам_Уникальное здание1.png" />
-    <None Remove="Resources\civStuffIcons\Сиам_Уникальный юнит1.png" />
+    <None Remove="Resources\civStuffIcons\Сиам_Уникальное_здание1.png" />
+    <None Remove="Resources\civStuffIcons\Сиам_Уникальный_юнит1.png" />
     <None Remove="Resources\civStuffIcons\Сонгай_Лидер1.png" />
-    <None Remove="Resources\civStuffIcons\Сонгай_Уникальное здание1.png" />
-    <None Remove="Resources\civStuffIcons\Сонгай_Уникальный юнит1.png" />
+    <None Remove="Resources\civStuffIcons\Сонгай_Уникальное_здание1.png" />
+    <None Remove="Resources\civStuffIcons\Сонгай_Уникальный_юнит1.png" />
     <None Remove="Resources\civStuffIcons\Турция_Лидер1.png" />
-    <None Remove="Resources\civStuffIcons\Турция_Уникальный юнит1.png" />
-    <None Remove="Resources\civStuffIcons\Турция_Уникальный юнит2.png" />
+    <None Remove="Resources\civStuffIcons\Турция_Уникальный_юнит1.png" />
+    <None Remove="Resources\civStuffIcons\Турция_Уникальный_юнит2.png" />
     <None Remove="Resources\civStuffIcons\Франция_Лидер1.png" />
-    <None Remove="Resources\civStuffIcons\Франция_Уникальная постройка1.png" />
-    <None Remove="Resources\civStuffIcons\Франция_Уникальный юнит1.png" />
+    <None Remove="Resources\civStuffIcons\Франция_Уникальная_постройка1.png" />
+    <None Remove="Resources\civStuffIcons\Франция_Уникальный_юнит1.png" />
     <None Remove="Resources\civStuffIcons\Швеция_Лидер1.png" />
-    <None Remove="Resources\civStuffIcons\Швеция_Уникальный юнит1.png" />
-    <None Remove="Resources\civStuffIcons\Швеция_Уникальный юнит2.png" />
+    <None Remove="Resources\civStuffIcons\Швеция_Уникальный_юнит1.png" />
+    <None Remove="Resources\civStuffIcons\Швеция_Уникальный_юнит2.png" />
     <None Remove="Resources\civStuffIcons\Шошоны_Лидер1.png" />
-    <None Remove="Resources\civStuffIcons\Шошоны_Уникальный юнит1.png" />
-    <None Remove="Resources\civStuffIcons\Шошоны_Уникальный юнит2.png" />
+    <None Remove="Resources\civStuffIcons\Шошоны_Уникальный_юнит1.png" />
+    <None Remove="Resources\civStuffIcons\Шошоны_Уникальный_юнит2.png" />
     <None Remove="Resources\civStuffIcons\Эфиопия_Лидер1.png" />
-    <None Remove="Resources\civStuffIcons\Эфиопия_Уникальное здание1.png" />
-    <None Remove="Resources\civStuffIcons\Эфиопия_Уникальный юнит1.png" />
+    <None Remove="Resources\civStuffIcons\Эфиопия_Уникальное_здание1.png" />
+    <None Remove="Resources\civStuffIcons\Эфиопия_Уникальный_юнит1.png" />
     <None Remove="Resources\civStuffIcons\Япония_Лидер1.png" />
-    <None Remove="Resources\civStuffIcons\Япония_Уникальный юнит1.png" />
-    <None Remove="Resources\civStuffIcons\Япония_Уникальный юнит2.png" />
+    <None Remove="Resources\civStuffIcons\Япония_Уникальный_юнит1.png" />
+    <None Remove="Resources\civStuffIcons\Япония_Уникальный_юнит2.png" />
     <None Remove="Resources\guiIcons\profileIcon.png" />
     <None Remove="Resources\guiIcons\profileIcon2.png" />
   </ItemGroup>
@@ -316,382 +318,388 @@
     <EmbeddedResource Include="Resources\civStuffIcons\Австрия_Лидер1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\civStuffIcons\Австрия_Уникальное здание1.png">
+    <EmbeddedResource Include="Resources\civStuffIcons\Австрия_Уникальное_здание1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\civStuffIcons\Австрия_Уникальный юнит1.png">
+    <EmbeddedResource Include="Resources\civStuffIcons\Австрия_Уникальный_юнит1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
     <EmbeddedResource Include="Resources\civStuffIcons\Америка_Лидер1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\civStuffIcons\Америка_Уникальный юнит1.png">
+    <EmbeddedResource Include="Resources\civStuffIcons\Америка_Уникальный_юнит1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\civStuffIcons\Америка_Уникальный юнит2.png">
+    <EmbeddedResource Include="Resources\civStuffIcons\Америка_Уникальный_юнит2.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
     <EmbeddedResource Include="Resources\civStuffIcons\Англия_Лидер1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\civStuffIcons\Англия_Уникальный юнит1.png">
+    <EmbeddedResource Include="Resources\civStuffIcons\Англия_Уникальный_юнит1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\civStuffIcons\Англия_Уникальный юнит2.png">
+    <EmbeddedResource Include="Resources\civStuffIcons\Англия_Уникальный_юнит2.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
     <EmbeddedResource Include="Resources\civStuffIcons\Аравия_Лидер1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\civStuffIcons\Аравия_Уникальное здание1.png">
+    <EmbeddedResource Include="Resources\civStuffIcons\Аравия_Уникальное_здание1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\civStuffIcons\Аравия_Уникальный юнит1.png">
+    <EmbeddedResource Include="Resources\civStuffIcons\Аравия_Уникальный_юнит1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
     <EmbeddedResource Include="Resources\civStuffIcons\Ассирия_Лидер1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\civStuffIcons\Ассирия_Уникальное здание1.png">
+    <EmbeddedResource Include="Resources\civStuffIcons\Ассирия_Уникальное_здание1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\civStuffIcons\Ассирия_Уникальный юнит1.png">
+    <EmbeddedResource Include="Resources\civStuffIcons\Ассирия_Уникальный_юнит1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
     <EmbeddedResource Include="Resources\civStuffIcons\Ацтеки_Лидер1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\civStuffIcons\Ацтеки_Уникальное здание1.png">
+    <EmbeddedResource Include="Resources\civStuffIcons\Ацтеки_Уникальное_здание1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\civStuffIcons\Ацтеки_Уникальный юнит1.png">
+    <EmbeddedResource Include="Resources\civStuffIcons\Ацтеки_Уникальный_юнит1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
     <EmbeddedResource Include="Resources\civStuffIcons\Бразилия_Лидер1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\civStuffIcons\Бразилия_Уникальная постройка1.png">
+    <EmbeddedResource Include="Resources\civStuffIcons\Бразилия_Уникальная_постройка1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\civStuffIcons\Бразилия_Уникальный юнит1.png">
+    <EmbeddedResource Include="Resources\civStuffIcons\Бразилия_Уникальный_юнит1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
     <EmbeddedResource Include="Resources\civStuffIcons\Вавилон_Лидер1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\civStuffIcons\Вавилон_Уникальное здание1.png">
+    <EmbeddedResource Include="Resources\civStuffIcons\Вавилон_Уникальное_здание1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\civStuffIcons\Вавилон_Уникальный юнит1.png">
+    <EmbeddedResource Include="Resources\civStuffIcons\Вавилон_Уникальный_юнит1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
     <EmbeddedResource Include="Resources\civStuffIcons\Венеция_Лидер1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\civStuffIcons\Венеция_Уникальный юнит2.png">
+    <EmbeddedResource Include="Resources\civStuffIcons\Венеция_Уникальный_юнит1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\civStuffIcons\Венеция_Уникальный_юнит2.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
     <EmbeddedResource Include="Resources\civStuffIcons\Византия_Лидер1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\civStuffIcons\Византия_Уникальный юнит1.png">
+    <EmbeddedResource Include="Resources\civStuffIcons\Византия_Уникальный_юнит1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\civStuffIcons\Византия_Уникальный юнит2.png">
+    <EmbeddedResource Include="Resources\civStuffIcons\Византия_Уникальный_юнит2.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
     <EmbeddedResource Include="Resources\civStuffIcons\Германия_Лидер1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\civStuffIcons\Германия_Уникальное здание1.png">
+    <EmbeddedResource Include="Resources\civStuffIcons\Германия_Уникальное_здание1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\civStuffIcons\Германия_Уникальный юнит1.png">
+    <EmbeddedResource Include="Resources\civStuffIcons\Германия_Уникальный_юнит1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
     <EmbeddedResource Include="Resources\civStuffIcons\Греция_Лидер1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\civStuffIcons\Греция_Уникальный юнит1.png">
+    <EmbeddedResource Include="Resources\civStuffIcons\Греция_Уникальный_юнит1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\civStuffIcons\Греция_Уникальный юнит2.png">
+    <EmbeddedResource Include="Resources\civStuffIcons\Греция_Уникальный_юнит2.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
     <EmbeddedResource Include="Resources\civStuffIcons\Гунны_Лидер1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\civStuffIcons\Гунны_Уникальный юнит1.png">
+    <EmbeddedResource Include="Resources\civStuffIcons\Гунны_Уникальный_юнит1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\civStuffIcons\Гунны_Уникальный юнит2.png">
+    <EmbeddedResource Include="Resources\civStuffIcons\Гунны_Уникальный_юнит2.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
     <EmbeddedResource Include="Resources\civStuffIcons\Дания_Лидер1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\civStuffIcons\Дания_Уникальный юнит1.png">
+    <EmbeddedResource Include="Resources\civStuffIcons\Дания_Уникальный_юнит1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\civStuffIcons\Дания_Уникальный юнит2.png">
+    <EmbeddedResource Include="Resources\civStuffIcons\Дания_Уникальный_юнит2.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
     <EmbeddedResource Include="Resources\civStuffIcons\Египет_Лидер1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\civStuffIcons\Египет_Уникальное здание1.png">
+    <EmbeddedResource Include="Resources\civStuffIcons\Египет_Уникальное_здание1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\civStuffIcons\Египет_Уникальный юнит1.png">
+    <EmbeddedResource Include="Resources\civStuffIcons\Египет_Уникальный_юнит1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
     <EmbeddedResource Include="Resources\civStuffIcons\Зулусы_Лидер1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\civStuffIcons\Зулусы_Уникальное здание1.png">
+    <EmbeddedResource Include="Resources\civStuffIcons\Зулусы_Уникальное_здание1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\civStuffIcons\Зулусы_Уникальный юнит1.png">
+    <EmbeddedResource Include="Resources\civStuffIcons\Зулусы_Уникальный_юнит1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
     <EmbeddedResource Include="Resources\civStuffIcons\Индия_Лидер1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\civStuffIcons\Индия_Уникальное здание1.png">
+    <EmbeddedResource Include="Resources\civStuffIcons\Индия_Уникальное_здание1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\civStuffIcons\Индия_Уникальный юнит1.png">
+    <EmbeddedResource Include="Resources\civStuffIcons\Индия_Уникальный_юнит1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
     <EmbeddedResource Include="Resources\civStuffIcons\Индонезия_Лидер1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\civStuffIcons\Индонезия_Уникальное здание1.png">
+    <EmbeddedResource Include="Resources\civStuffIcons\Индонезия_Уникальное_здание1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\civStuffIcons\Индонезия_Уникальный юнит1.png">
+    <EmbeddedResource Include="Resources\civStuffIcons\Индонезия_Уникальный_юнит1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
     <EmbeddedResource Include="Resources\civStuffIcons\Инки_Лидер1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\civStuffIcons\Инки_Уникальная постройка1.png">
+    <EmbeddedResource Include="Resources\civStuffIcons\Инки_Уникальная_постройка1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\civStuffIcons\Инки_Уникальный юнит1.png">
+    <EmbeddedResource Include="Resources\civStuffIcons\Инки_Уникальный_юнит1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
     <EmbeddedResource Include="Resources\civStuffIcons\Ирокезы_Лидер1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\civStuffIcons\Ирокезы_Уникальное здание1.png">
+    <EmbeddedResource Include="Resources\civStuffIcons\Ирокезы_Уникальное_здание1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\civStuffIcons\Ирокезы_Уникальный юнит1.png">
+    <EmbeddedResource Include="Resources\civStuffIcons\Ирокезы_Уникальный_юнит1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
     <EmbeddedResource Include="Resources\civStuffIcons\Испания_Лидер1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\civStuffIcons\Испания_Уникальный юнит1.png">
+    <EmbeddedResource Include="Resources\civStuffIcons\Испания_Уникальный_юнит1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\civStuffIcons\Испания_Уникальный юнит2.png">
+    <EmbeddedResource Include="Resources\civStuffIcons\Испания_Уникальный_юнит2.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
     <EmbeddedResource Include="Resources\civStuffIcons\Карфаген_Лидер1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\civStuffIcons\Карфаген_Уникальный юнит1.png">
+    <EmbeddedResource Include="Resources\civStuffIcons\Карфаген_Уникальный_юнит1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\civStuffIcons\Карфаген_Уникальный юнит2.png">
+    <EmbeddedResource Include="Resources\civStuffIcons\Карфаген_Уникальный_юнит2.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
     <EmbeddedResource Include="Resources\civStuffIcons\Кельты_Лидер1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\civStuffIcons\Кельты_Уникальное здание1.png">
+    <EmbeddedResource Include="Resources\civStuffIcons\Кельты_Уникальное_здание1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\civStuffIcons\Кельты_Уникальный юнит1.png">
+    <EmbeddedResource Include="Resources\civStuffIcons\Кельты_Уникальный_юнит1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
     <EmbeddedResource Include="Resources\civStuffIcons\Китай_Лидер1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\civStuffIcons\Китай_Уникальное здание1.png">
+    <EmbeddedResource Include="Resources\civStuffIcons\Китай_Уникальное_здание1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\civStuffIcons\Китай_Уникальный юнит1.png">
+    <EmbeddedResource Include="Resources\civStuffIcons\Китай_Уникальный_юнит1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
     <EmbeddedResource Include="Resources\civStuffIcons\Корея_Лидер1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\civStuffIcons\Корея_Уникальный юнит1.png">
+    <EmbeddedResource Include="Resources\civStuffIcons\Корея_Уникальный_юнит1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\civStuffIcons\Корея_Уникальный юнит2.png">
+    <EmbeddedResource Include="Resources\civStuffIcons\Корея_Уникальный_юнит2.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
     <EmbeddedResource Include="Resources\civStuffIcons\Майя_Лидер1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\civStuffIcons\Майя_Уникальное здание1.png">
+    <EmbeddedResource Include="Resources\civStuffIcons\Майя_Уникальное_здание1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\civStuffIcons\Майя_Уникальный юнит1.png">
+    <EmbeddedResource Include="Resources\civStuffIcons\Майя_Уникальный_юнит1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
     <EmbeddedResource Include="Resources\civStuffIcons\Марокко_Лидер1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\civStuffIcons\Марокко_Уникальная постройка1.png">
+    <EmbeddedResource Include="Resources\civStuffIcons\Марокко_Уникальная_постройка1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\civStuffIcons\Марокко_Уникальный юнит1.png">
+    <EmbeddedResource Include="Resources\civStuffIcons\Марокко_Уникальный_юнит1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
     <EmbeddedResource Include="Resources\civStuffIcons\Монголия_Лидер1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\civStuffIcons\Монголия_Уникальный юнит1.png">
+    <EmbeddedResource Include="Resources\civStuffIcons\Монголия_Уникальный_юнит1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\civStuffIcons\Монголия_Уникальный_юнит2.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
     <EmbeddedResource Include="Resources\civStuffIcons\Нидерланды_Лидер1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\civStuffIcons\Нидерланды_Уникальная постройка1.png">
+    <EmbeddedResource Include="Resources\civStuffIcons\Нидерланды_Уникальная_постройка1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\civStuffIcons\Нидерланды_Уникальный юнит1.png">
+    <EmbeddedResource Include="Resources\civStuffIcons\Нидерланды_Уникальный_юнит1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
     <EmbeddedResource Include="Resources\civStuffIcons\Персия_Лидер1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\civStuffIcons\Персия_Уникальное здание1.png">
+    <EmbeddedResource Include="Resources\civStuffIcons\Персия_Уникальное_здание1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\civStuffIcons\Персия_Уникальный юнит1.png">
+    <EmbeddedResource Include="Resources\civStuffIcons\Персия_Уникальный_юнит1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
     <EmbeddedResource Include="Resources\civStuffIcons\Полинезия_Лидер1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\civStuffIcons\Полинезия_Уникальная постройка1.png">
+    <EmbeddedResource Include="Resources\civStuffIcons\Полинезия_Уникальная_постройка1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\civStuffIcons\Полинезия_Уникальный юнит1.png">
+    <EmbeddedResource Include="Resources\civStuffIcons\Полинезия_Уникальный_юнит1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
     <EmbeddedResource Include="Resources\civStuffIcons\Польша_Лидер1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\civStuffIcons\Польша_Уникальное здание1.png">
+    <EmbeddedResource Include="Resources\civStuffIcons\Польша_Уникальное_здание1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\civStuffIcons\Польша_Уникальный юнит1.png">
+    <EmbeddedResource Include="Resources\civStuffIcons\Польша_Уникальный_юнит1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
     <EmbeddedResource Include="Resources\civStuffIcons\Португалия_Лидер1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\civStuffIcons\Португалия_Уникальная постройка1.png">
+    <EmbeddedResource Include="Resources\civStuffIcons\Португалия_Уникальная_постройка1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\civStuffIcons\Португалия_Уникальный юнит1.png">
+    <EmbeddedResource Include="Resources\civStuffIcons\Португалия_Уникальный_юнит1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
     <EmbeddedResource Include="Resources\civStuffIcons\Рим_Лидер1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\civStuffIcons\Рим_Уникальный юнит1.png">
+    <EmbeddedResource Include="Resources\civStuffIcons\Рим_Уникальный_юнит1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\civStuffIcons\Рим_Уникальный юнит2.png">
+    <EmbeddedResource Include="Resources\civStuffIcons\Рим_Уникальный_юнит2.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
     <EmbeddedResource Include="Resources\civStuffIcons\Россия_Лидер1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\civStuffIcons\Россия_Уникальное здание1.png">
+    <EmbeddedResource Include="Resources\civStuffIcons\Россия_Уникальное_здание1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\civStuffIcons\Россия_Уникальный юнит1.png">
+    <EmbeddedResource Include="Resources\civStuffIcons\Россия_Уникальный_юнит1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
     <EmbeddedResource Include="Resources\civStuffIcons\Сиам_Лидер1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\civStuffIcons\Сиам_Уникальное здание1.png">
+    <EmbeddedResource Include="Resources\civStuffIcons\Сиам_Уникальное_здание1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\civStuffIcons\Сиам_Уникальный юнит1.png">
+    <EmbeddedResource Include="Resources\civStuffIcons\Сиам_Уникальный_юнит1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
     <EmbeddedResource Include="Resources\civStuffIcons\Сонгай_Лидер1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\civStuffIcons\Сонгай_Уникальное здание1.png">
+    <EmbeddedResource Include="Resources\civStuffIcons\Сонгай_Уникальное_здание1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\civStuffIcons\Сонгай_Уникальный юнит1.png">
+    <EmbeddedResource Include="Resources\civStuffIcons\Сонгай_Уникальный_юнит1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
     <EmbeddedResource Include="Resources\civStuffIcons\Турция_Лидер1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\civStuffIcons\Турция_Уникальный юнит1.png">
+    <EmbeddedResource Include="Resources\civStuffIcons\Турция_Уникальный_юнит1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\civStuffIcons\Турция_Уникальный юнит2.png">
+    <EmbeddedResource Include="Resources\civStuffIcons\Турция_Уникальный_юнит2.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
     <EmbeddedResource Include="Resources\civStuffIcons\Франция_Лидер1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\civStuffIcons\Франция_Уникальная постройка1.png">
+    <EmbeddedResource Include="Resources\civStuffIcons\Франция_Уникальная_постройка1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\civStuffIcons\Франция_Уникальный юнит1.png">
+    <EmbeddedResource Include="Resources\civStuffIcons\Франция_Уникальный_юнит1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
     <EmbeddedResource Include="Resources\civStuffIcons\Швеция_Лидер1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\civStuffIcons\Швеция_Уникальный юнит1.png">
+    <EmbeddedResource Include="Resources\civStuffIcons\Швеция_Уникальный_юнит1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\civStuffIcons\Швеция_Уникальный юнит2.png">
+    <EmbeddedResource Include="Resources\civStuffIcons\Швеция_Уникальный_юнит2.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
     <EmbeddedResource Include="Resources\civStuffIcons\Шошоны_Лидер1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\civStuffIcons\Шошоны_Уникальный юнит1.png">
+    <EmbeddedResource Include="Resources\civStuffIcons\Шошоны_Уникальный_юнит1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\civStuffIcons\Шошоны_Уникальный юнит2.png">
+    <EmbeddedResource Include="Resources\civStuffIcons\Шошоны_Уникальный_юнит2.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
     <EmbeddedResource Include="Resources\civStuffIcons\Эфиопия_Лидер1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\civStuffIcons\Эфиопия_Уникальное здание1.png">
+    <EmbeddedResource Include="Resources\civStuffIcons\Эфиопия_Уникальное_здание1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\civStuffIcons\Эфиопия_Уникальный юнит1.png">
+    <EmbeddedResource Include="Resources\civStuffIcons\Эфиопия_Уникальный_юнит1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
     <EmbeddedResource Include="Resources\civStuffIcons\Япония_Лидер1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\civStuffIcons\Япония_Уникальный юнит1.png">
+    <EmbeddedResource Include="Resources\civStuffIcons\Япония_Уникальный_юнит1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\civStuffIcons\Япония_Уникальный юнит2.png">
+    <EmbeddedResource Include="Resources\civStuffIcons\Япония_Уникальный_юнит2.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
     <EmbeddedResource Include="Resources\guiIcons\profileIcon.png">
@@ -712,7 +720,7 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
     <None Remove="Resources\appIcon.png" />
-    <EmbeddedResource Include="Resources\appIcon.png">
+    <EmbeddedResource Include="Resources\guiIcons\appIcon.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
   </ItemGroup>

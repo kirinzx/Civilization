@@ -128,7 +128,7 @@
     <value>Resources\civsFlags\america.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="appIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\appIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>Resources\guiIcons\appIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="arabia" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\civsFlags\arabia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -266,381 +266,387 @@
     <value>Resources\civStuffIcons\Австрия_Лидер1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Австрия_Уникальное_здание1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\civStuffIcons\Австрия_Уникальное здание1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>Resources\civStuffIcons\Австрия_Уникальное_здание1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Австрия_Уникальный_юнит1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\civStuffIcons\Австрия_Уникальный юнит1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>Resources\civStuffIcons\Австрия_Уникальный_юнит1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Америка_Лидер1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\civStuffIcons\Америка_Лидер1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Америка_Уникальный_юнит1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\civStuffIcons\Америка_Уникальный юнит1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>Resources\civStuffIcons\Америка_Уникальный_юнит1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Америка_Уникальный_юнит2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\civStuffIcons\Америка_Уникальный юнит2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>Resources\civStuffIcons\Америка_Уникальный_юнит2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Англия_Лидер1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\civStuffIcons\Англия_Лидер1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Англия_Уникальный_юнит1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\civStuffIcons\Англия_Уникальный юнит1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>Resources\civStuffIcons\Англия_Уникальный_юнит1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Англия_Уникальный_юнит2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\civStuffIcons\Англия_Уникальный юнит2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>Resources\civStuffIcons\Англия_Уникальный_юнит2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Аравия_Лидер1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\civStuffIcons\Аравия_Лидер1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Аравия_Уникальное_здание1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\civStuffIcons\Аравия_Уникальное здание1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>Resources\civStuffIcons\Аравия_Уникальное_здание1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Аравия_Уникальный_юнит1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\civStuffIcons\Аравия_Уникальный юнит1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>Resources\civStuffIcons\Аравия_Уникальный_юнит1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Ассирия_Лидер1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\civStuffIcons\Ассирия_Лидер1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Ассирия_Уникальное_здание1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\civStuffIcons\Ассирия_Уникальное здание1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>Resources\civStuffIcons\Ассирия_Уникальное_здание1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Ассирия_Уникальный_юнит1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\civStuffIcons\Ассирия_Уникальный юнит1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>Resources\civStuffIcons\Ассирия_Уникальный_юнит1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Ацтеки_Лидер1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\civStuffIcons\Ацтеки_Лидер1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Ацтеки_Уникальное_здание1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\civStuffIcons\Ацтеки_Уникальное здание1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>Resources\civStuffIcons\Ацтеки_Уникальное_здание1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Ацтеки_Уникальный_юнит1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\civStuffIcons\Ацтеки_Уникальный юнит1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>Resources\civStuffIcons\Ацтеки_Уникальный_юнит1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Бразилия_Лидер1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\civStuffIcons\Бразилия_Лидер1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Бразилия_Уникальная_постройка1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\civStuffIcons\Бразилия_Уникальная постройка1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>Resources\civStuffIcons\Бразилия_Уникальная_постройка1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Бразилия_Уникальный_юнит1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\civStuffIcons\Бразилия_Уникальный юнит1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>Resources\civStuffIcons\Бразилия_Уникальный_юнит1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Вавилон_Лидер1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\civStuffIcons\Вавилон_Лидер1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Вавилон_Уникальное_здание1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\civStuffIcons\Вавилон_Уникальное здание1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>Resources\civStuffIcons\Вавилон_Уникальное_здание1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Вавилон_Уникальный_юнит1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\civStuffIcons\Вавилон_Уникальный юнит1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>Resources\civStuffIcons\Вавилон_Уникальный_юнит1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Венеция_Лидер1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\civStuffIcons\Венеция_Лидер1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Венеция_Уникальный_юнит1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\civStuffIcons\Венеция_Уникальный_юнит1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Венеция_Уникальный_юнит2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\civStuffIcons\Венеция_Уникальный юнит2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>Resources\civStuffIcons\Венеция_Уникальный_юнит2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Византия_Лидер1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\civStuffIcons\Византия_Лидер1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Византия_Уникальный_юнит1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\civStuffIcons\Византия_Уникальный юнит1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>Resources\civStuffIcons\Византия_Уникальный_юнит1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Византия_Уникальный_юнит2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\civStuffIcons\Византия_Уникальный юнит2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>Resources\civStuffIcons\Византия_Уникальный_юнит2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Германия_Лидер1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\civStuffIcons\Германия_Лидер1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Германия_Уникальное_здание1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\civStuffIcons\Германия_Уникальное здание1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>Resources\civStuffIcons\Германия_Уникальное_здание1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Германия_Уникальный_юнит1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\civStuffIcons\Германия_Уникальный юнит1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>Resources\civStuffIcons\Германия_Уникальный_юнит1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Греция_Лидер1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\civStuffIcons\Греция_Лидер1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Греция_Уникальный_юнит1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\civStuffIcons\Греция_Уникальный юнит1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>Resources\civStuffIcons\Греция_Уникальный_юнит1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Греция_Уникальный_юнит2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\civStuffIcons\Греция_Уникальный юнит2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>Resources\civStuffIcons\Греция_Уникальный_юнит2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Гунны_Лидер1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\civStuffIcons\Гунны_Лидер1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Гунны_Уникальный_юнит1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\civStuffIcons\Гунны_Уникальный юнит1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>Resources\civStuffIcons\Гунны_Уникальный_юнит1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Гунны_Уникальный_юнит2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\civStuffIcons\Гунны_Уникальный юнит2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>Resources\civStuffIcons\Гунны_Уникальный_юнит2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Дания_Лидер1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\civStuffIcons\Дания_Лидер1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Дания_Уникальный_юнит1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\civStuffIcons\Дания_Уникальный юнит1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>Resources\civStuffIcons\Дания_Уникальный_юнит1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Дания_Уникальный_юнит2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\civStuffIcons\Дания_Уникальный юнит2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>Resources\civStuffIcons\Дания_Уникальный_юнит2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Египет_Лидер1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\civStuffIcons\Египет_Лидер1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Египет_Уникальное_здание1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\civStuffIcons\Египет_Уникальное здание1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>Resources\civStuffIcons\Египет_Уникальное_здание1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Египет_Уникальный_юнит1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\civStuffIcons\Египет_Уникальный юнит1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>Resources\civStuffIcons\Египет_Уникальный_юнит1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Зулусы_Лидер1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\civStuffIcons\Зулусы_Лидер1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Зулусы_Уникальное_здание1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\civStuffIcons\Зулусы_Уникальное здание1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>Resources\civStuffIcons\Зулусы_Уникальное_здание1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Зулусы_Уникальный_юнит1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\civStuffIcons\Зулусы_Уникальный юнит1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>Resources\civStuffIcons\Зулусы_Уникальный_юнит1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Индия_Лидер1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\civStuffIcons\Индия_Лидер1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Индия_Уникальное_здание1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\civStuffIcons\Индия_Уникальное здание1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>Resources\civStuffIcons\Индия_Уникальное_здание1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Индия_Уникальный_юнит1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\civStuffIcons\Индия_Уникальный юнит1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>Resources\civStuffIcons\Индия_Уникальный_юнит1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Индонезия_Лидер1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\civStuffIcons\Индонезия_Лидер1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Индонезия_Уникальное_здание1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\civStuffIcons\Индонезия_Уникальное здание1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>Resources\civStuffIcons\Индонезия_Уникальное_здание1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Индонезия_Уникальный_юнит1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\civStuffIcons\Индонезия_Уникальный юнит1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>Resources\civStuffIcons\Индонезия_Уникальный_юнит1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Инки_Лидер1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\civStuffIcons\Инки_Лидер1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Инки_Уникальная_постройка1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\civStuffIcons\Инки_Уникальная постройка1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>Resources\civStuffIcons\Инки_Уникальная_постройка1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Инки_Уникальный_юнит1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\civStuffIcons\Инки_Уникальный юнит1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>Resources\civStuffIcons\Инки_Уникальный_юнит1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Ирокезы_Лидер1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\civStuffIcons\Ирокезы_Лидер1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Ирокезы_Уникальное_здание1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\civStuffIcons\Ирокезы_Уникальное здание1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>Resources\civStuffIcons\Ирокезы_Уникальное_здание1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Ирокезы_Уникальный_юнит1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\civStuffIcons\Ирокезы_Уникальный юнит1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>Resources\civStuffIcons\Ирокезы_Уникальный_юнит1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Испания_Лидер1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\civStuffIcons\Испания_Лидер1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Испания_Уникальный_юнит1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\civStuffIcons\Испания_Уникальный юнит1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>Resources\civStuffIcons\Испания_Уникальный_юнит1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Испания_Уникальный_юнит2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\civStuffIcons\Испания_Уникальный юнит2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>Resources\civStuffIcons\Испания_Уникальный_юнит2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Карфаген_Лидер1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\civStuffIcons\Карфаген_Лидер1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Карфаген_Уникальный_юнит1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\civStuffIcons\Карфаген_Уникальный юнит1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>Resources\civStuffIcons\Карфаген_Уникальный_юнит1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Карфаген_Уникальный_юнит2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\civStuffIcons\Карфаген_Уникальный юнит2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>Resources\civStuffIcons\Карфаген_Уникальный_юнит2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Кельты_Лидер1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\civStuffIcons\Кельты_Лидер1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Кельты_Уникальное_здание1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\civStuffIcons\Кельты_Уникальное здание1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>Resources\civStuffIcons\Кельты_Уникальное_здание1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Кельты_Уникальный_юнит1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\civStuffIcons\Кельты_Уникальный юнит1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>Resources\civStuffIcons\Кельты_Уникальный_юнит1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Китай_Лидер1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\civStuffIcons\Китай_Лидер1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Китай_Уникальное_здание1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\civStuffIcons\Китай_Уникальное здание1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>Resources\civStuffIcons\Китай_Уникальное_здание1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Китай_Уникальный_юнит1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\civStuffIcons\Китай_Уникальный юнит1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>Resources\civStuffIcons\Китай_Уникальный_юнит1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Корея_Лидер1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\civStuffIcons\Корея_Лидер1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Корея_Уникальный_юнит1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\civStuffIcons\Корея_Уникальный юнит1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>Resources\civStuffIcons\Корея_Уникальный_юнит1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Корея_Уникальный_юнит2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\civStuffIcons\Корея_Уникальный юнит2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>Resources\civStuffIcons\Корея_Уникальный_юнит2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Майя_Лидер1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\civStuffIcons\Майя_Лидер1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Майя_Уникальное_здание1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\civStuffIcons\Майя_Уникальное здание1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>Resources\civStuffIcons\Майя_Уникальное_здание1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Майя_Уникальный_юнит1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\civStuffIcons\Майя_Уникальный юнит1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>Resources\civStuffIcons\Майя_Уникальный_юнит1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Марокко_Лидер1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\civStuffIcons\Марокко_Лидер1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Марокко_Уникальная_постройка1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\civStuffIcons\Марокко_Уникальная постройка1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>Resources\civStuffIcons\Марокко_Уникальная_постройка1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Марокко_Уникальный_юнит1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\civStuffIcons\Марокко_Уникальный юнит1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>Resources\civStuffIcons\Марокко_Уникальный_юнит1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Монголия_Лидер1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\civStuffIcons\Монголия_Лидер1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Монголия_Уникальный_юнит1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\civStuffIcons\Монголия_Уникальный юнит1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>Resources\civStuffIcons\Монголия_Уникальный_юнит1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Монголия_Уникальный_юнит2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\civStuffIcons\Монголия_Уникальный_юнит2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Нидерланды_Лидер1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\civStuffIcons\Нидерланды_Лидер1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Нидерланды_Уникальная_постройка1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\civStuffIcons\Нидерланды_Уникальная постройка1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>Resources\civStuffIcons\Нидерланды_Уникальная_постройка1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Нидерланды_Уникальный_юнит1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\civStuffIcons\Нидерланды_Уникальный юнит1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>Resources\civStuffIcons\Нидерланды_Уникальный_юнит1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Персия_Лидер1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\civStuffIcons\Персия_Лидер1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Персия_Уникальное_здание1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\civStuffIcons\Персия_Уникальное здание1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>Resources\civStuffIcons\Персия_Уникальное_здание1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Персия_Уникальный_юнит1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\civStuffIcons\Персия_Уникальный юнит1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>Resources\civStuffIcons\Персия_Уникальный_юнит1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Полинезия_Лидер1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\civStuffIcons\Полинезия_Лидер1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Полинезия_Уникальная_постройка1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\civStuffIcons\Полинезия_Уникальная постройка1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>Resources\civStuffIcons\Полинезия_Уникальная_постройка1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Полинезия_Уникальный_юнит1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\civStuffIcons\Полинезия_Уникальный юнит1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>Resources\civStuffIcons\Полинезия_Уникальный_юнит1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Польша_Лидер1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\civStuffIcons\Польша_Лидер1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Польша_Уникальное_здание1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\civStuffIcons\Польша_Уникальное здание1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>Resources\civStuffIcons\Польша_Уникальное_здание1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Польша_Уникальный_юнит1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\civStuffIcons\Польша_Уникальный юнит1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>Resources\civStuffIcons\Польша_Уникальный_юнит1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Португалия_Лидер1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\civStuffIcons\Португалия_Лидер1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Португалия_Уникальная_постройка1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\civStuffIcons\Португалия_Уникальная постройка1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>Resources\civStuffIcons\Португалия_Уникальная_постройка1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Португалия_Уникальный_юнит1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\civStuffIcons\Португалия_Уникальный юнит1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>Resources\civStuffIcons\Португалия_Уникальный_юнит1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Рим_Лидер1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\civStuffIcons\Рим_Лидер1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Рим_Уникальный_юнит1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\civStuffIcons\Рим_Уникальный юнит1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>Resources\civStuffIcons\Рим_Уникальный_юнит1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Рим_Уникальный_юнит2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\civStuffIcons\Рим_Уникальный юнит2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>Resources\civStuffIcons\Рим_Уникальный_юнит2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Россия_Лидер1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\civStuffIcons\Россия_Лидер1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Россия_Уникальное_здание1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\civStuffIcons\Россия_Уникальное здание1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>Resources\civStuffIcons\Россия_Уникальное_здание1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Россия_Уникальный_юнит1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\civStuffIcons\Россия_Уникальный юнит1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>Resources\civStuffIcons\Россия_Уникальный_юнит1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Сиам_Лидер1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\civStuffIcons\Сиам_Лидер1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Сиам_Уникальное_здание1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\civStuffIcons\Сиам_Уникальное здание1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>Resources\civStuffIcons\Сиам_Уникальное_здание1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Сиам_Уникальный_юнит1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\civStuffIcons\Сиам_Уникальный юнит1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>Resources\civStuffIcons\Сиам_Уникальный_юнит1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Сонгай_Лидер1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\civStuffIcons\Сонгай_Лидер1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Сонгай_Уникальное_здание1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\civStuffIcons\Сонгай_Уникальное здание1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>Resources\civStuffIcons\Сонгай_Уникальное_здание1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Сонгай_Уникальный_юнит1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\civStuffIcons\Сонгай_Уникальный юнит1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>Resources\civStuffIcons\Сонгай_Уникальный_юнит1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Турция_Лидер1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\civStuffIcons\Турция_Лидер1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Турция_Уникальный_юнит1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\civStuffIcons\Турция_Уникальный юнит1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>Resources\civStuffIcons\Турция_Уникальный_юнит1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Турция_Уникальный_юнит2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\civStuffIcons\Турция_Уникальный юнит2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>Resources\civStuffIcons\Турция_Уникальный_юнит2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Франция_Лидер1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\civStuffIcons\Франция_Лидер1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Франция_Уникальная_постройка1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\civStuffIcons\Франция_Уникальная постройка1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>Resources\civStuffIcons\Франция_Уникальная_постройка1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Франция_Уникальный_юнит1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\civStuffIcons\Франция_Уникальный юнит1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>Resources\civStuffIcons\Франция_Уникальный_юнит1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Швеция_Лидер1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\civStuffIcons\Швеция_Лидер1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Швеция_Уникальный_юнит1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\civStuffIcons\Швеция_Уникальный юнит1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>Resources\civStuffIcons\Швеция_Уникальный_юнит1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Швеция_Уникальный_юнит2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\civStuffIcons\Швеция_Уникальный юнит2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>Resources\civStuffIcons\Швеция_Уникальный_юнит2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Шошоны_Лидер1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\civStuffIcons\Шошоны_Лидер1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Шошоны_Уникальный_юнит1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\civStuffIcons\Шошоны_Уникальный юнит1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>Resources\civStuffIcons\Шошоны_Уникальный_юнит1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Шошоны_Уникальный_юнит2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\civStuffIcons\Шошоны_Уникальный юнит2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>Resources\civStuffIcons\Шошоны_Уникальный_юнит2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Эфиопия_Лидер1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\civStuffIcons\Эфиопия_Лидер1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Эфиопия_Уникальное_здание1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\civStuffIcons\Эфиопия_Уникальное здание1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>Resources\civStuffIcons\Эфиопия_Уникальное_здание1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Эфиопия_Уникальный_юнит1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\civStuffIcons\Эфиопия_Уникальный юнит1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>Resources\civStuffIcons\Эфиопия_Уникальный_юнит1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Япония_Лидер1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\civStuffIcons\Япония_Лидер1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Япония_Уникальный_юнит1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\civStuffIcons\Япония_Уникальный юнит1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>Resources\civStuffIcons\Япония_Уникальный_юнит1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Япония_Уникальный_юнит2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\civStuffIcons\Япония_Уникальный юнит2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>Resources\civStuffIcons\Япония_Уникальный_юнит2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
