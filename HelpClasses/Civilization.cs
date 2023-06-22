@@ -38,10 +38,12 @@ public class Civilization : TableLayoutPanel {
         }
     }
     public Civilization(string name,bool isBanned=false,bool isPicked=false) {
+        civInfoList = new();
         compact = GCLargeObjectHeapCompactionMode.CompactOnce;
         _isBanned = isBanned;
         _isPicked = isPicked;
         _name = name;
+        getInfo();
         RowCount = 2;
         ColumnCount = 1;
         BorderStyle = BorderStyle.FixedSingle;
@@ -67,7 +69,12 @@ public class Civilization : TableLayoutPanel {
         civLabel.Dock = DockStyle.Fill;
         
         Controls.Add(civLabel);
-        this.Paint += new PaintEventHandler(paint);
+        Paint += new PaintEventHandler(paint);
+        
+        string civInfo = getCivInfo();
+        ToolTip toolTip = new ToolTip();
+        toolTip.SetToolTip(civLabel,civInfo);
+        toolTip.SetToolTip(civFlag,civInfo);
     }
     public Civilization(string name, int count, bool isBanned = false, bool isPicked = false) {
         civInfoList = new();
@@ -155,5 +162,19 @@ public class Civilization : TableLayoutPanel {
                 civInfoList.Add(new CivilizationUnit(unitGeneralName, unitName, image, unitInfo));
             }
         }
+    }
+    
+    private string getCivInfo() {
+        string civInfo = "";
+        List<CivilizationUnit> civUnitList = civInfoList;
+        foreach (CivilizationUnit civUnit in civUnitList) {
+            civInfo += civUnit.generalName + ": " + civUnit.name + "\r\n";
+
+            foreach (KeyValuePair<string,string> unitInfo in civUnit.info) {
+                civInfo += unitInfo.Key + ": " + unitInfo.Value + "\r\n";
+            }
+        }
+
+        return civInfo;
     }
 }

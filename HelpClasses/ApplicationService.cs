@@ -84,4 +84,10 @@ public class ApplicationService {
         newForm.Show();
         currentForm.Hide();
     }
+
+    public static void setFormSettings(Form form) {
+        form.MaximizeBox = false;
+        form.Icon = ApplicationService.icon;
+        form.FormBorderStyle = FormBorderStyle.FixedSingle;
+    }
 }

@@ -19,9 +19,7 @@ public partial class PickCivsForm : Form {
         this.playersTable2 = playersTable2;
         InitializeComponent();
         playersPanel.Controls.AddRange(new []{playersTable1,playersTable2});
-        this.Icon = ApplicationService.icon;
-        MaximizeBox = false;
-        MinimizeBox = false;
+        ApplicationService.setFormSettings(this);
     }
 
     private void PickCivsForm_Load(object sender,EventArgs e) {
@@ -200,6 +198,7 @@ public partial class PickCivsForm : Form {
     }
     private Civilization generateCivTable(string civ) {
         Civilization civPanel = new(civ);
+
         civPanel.Height = playersPanel.Height / 2;
         
         civPanel.Click += new EventHandler(doToCiv);
@@ -217,5 +216,19 @@ public partial class PickCivsForm : Form {
 
             tmpNum--;
         }
+    }
+
+    private string getCivInfo(Civilization civilization) {
+        string civInfo = "";
+        List<CivilizationUnit> civUnitList = civilization.civInfoList;
+        foreach (CivilizationUnit civUnit in civUnitList) {
+            civInfo += civUnit.generalName + ": " + civUnit.name + "\r\n";
+
+            foreach (KeyValuePair<string,string> unitInfo in civUnit.info) {
+                civInfo += unitInfo.Key + ": " + unitInfo.Value + "\r\n";
+            }
+        }
+
+        return civInfo;
     }
 }

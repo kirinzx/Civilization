@@ -5,9 +5,7 @@
         private TableLayoutPanel playersTable2 = new TableLayoutPanel();
         public AddPlayersForm() {
             InitializeComponent();
-            this.Icon = ApplicationService.icon;
-            MaximizeBox = false;
-            MinimizeBox = false;
+            ApplicationService.setFormSettings(this);
         }
 
         private void AddPlayersForm_Load(object sender, EventArgs e) {

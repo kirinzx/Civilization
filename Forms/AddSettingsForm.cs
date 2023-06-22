@@ -9,9 +9,7 @@ public partial class AddSettingsForm : Form {
         InitializeComponent();
         this.playersTable1.Height = playersCivsPanel.Height / 2;
         this.playersTable2.Height = playersCivsPanel.Height / 2;
-        MaximizeBox = false;
-        MinimizeBox = false;
-        this.Icon = ApplicationService.icon;
+        ApplicationService.setFormSettings(this);
     }
 
     private void AddSettingsForm_Load(object sender, EventArgs e) {

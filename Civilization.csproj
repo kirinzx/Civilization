@@ -6,6 +6,8 @@
     <Nullable>enable</Nullable>
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
+    <StartupObject></StartupObject>
+    <ApplicationIcon>Resources\guiIcons\appIcon.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
@@ -181,6 +183,7 @@
     <None Remove="Resources\civStuffIcons\Япония_Лидер1.png" />
     <None Remove="Resources\civStuffIcons\Япония_Уникальный_юнит1.png" />
     <None Remove="Resources\civStuffIcons\Япония_Уникальный_юнит2.png" />
+    <None Remove="Resources\guiIcons\appIcon.ico" />
     <None Remove="Resources\guiIcons\profileIcon.png" />
     <None Remove="Resources\guiIcons\profileIcon2.png" />
   </ItemGroup>
@@ -702,6 +705,9 @@
     <EmbeddedResource Include="Resources\civStuffIcons\Япония_Уникальный_юнит2.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
+    <EmbeddedResource Include="Resources\guiIcons\appIcon.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
     <EmbeddedResource Include="Resources\guiIcons\profileIcon.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
@@ -720,9 +726,10 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
     <None Remove="Resources\appIcon.png" />
-    <EmbeddedResource Include="Resources\guiIcons\appIcon.png">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Resources\guiIcons\appIcon.ico" />
   </ItemGroup>
 
   <ItemGroup>
@@ -731,30 +738,14 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resource1.resx</DependentUpon>
     </Compile>
-    <Compile Update="Forms\AddPlayersForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="Forms\AddSettingsForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="Forms\PickCivsForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="Forms\MainForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="HelpClasses\Civilization.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Update="HelpClasses\Player.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Update="Forms\PickMapsForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="Forms\LastStageForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Update="Forms\AddPlayersForm.cs" />
+    <Compile Update="Forms\AddSettingsForm.cs" />
+    <Compile Update="Forms\PickCivsForm.cs" />
+    <Compile Update="Forms\MainForm.cs" />
+    <Compile Update="HelpClasses\Civilization.cs" />
+    <Compile Update="HelpClasses\Player.cs" />
+    <Compile Update="Forms\PickMapsForm.cs" />
+    <Compile Update="Forms\LastStageForm.cs" />
   </ItemGroup>
 
   <ItemGroup>

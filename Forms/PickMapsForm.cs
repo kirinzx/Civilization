@@ -10,9 +10,7 @@ public partial class PickMapsForm : Form {
         this.settings = settings;
         this.victories = victories;
         InitializeComponent();
-        MaximizeBox = false;
-        MinimizeBox = false;
-        Icon = ApplicationService.icon;
+        ApplicationService.setFormSettings(this);
     }
 
     private void PickMapsForm_Load(object sender, EventArgs e) {

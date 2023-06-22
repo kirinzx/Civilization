@@ -160,6 +160,7 @@ partial class AddSettingsForm {
             this.victoriesCheckBoxList.Name = "victoriesCheckBoxList";
             this.victoriesCheckBoxList.Size = new System.Drawing.Size(232, 312);
             this.victoriesCheckBoxList.TabIndex = 0;
+            this.victoriesCheckBoxList.CheckOnClick = true;
             // 
             // settingsGroupBox
             // 
@@ -207,6 +208,7 @@ partial class AddSettingsForm {
             this.settingsCheckBoxList.Name = "settingsCheckBoxList";
             this.settingsCheckBoxList.Size = new System.Drawing.Size(232, 312);
             this.settingsCheckBoxList.TabIndex = 0;
+            this.settingsCheckBoxList.CheckOnClick = true;
             // 
             // AddSettingsForm
             // 

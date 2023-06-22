@@ -5,9 +5,7 @@ namespace Civilization;
 public partial class LastStageForm : Form {
     public LastStageForm() {
         InitializeComponent();
-        MinimizeBox = false;
-        MaximizeBox = false;
-        Icon = ApplicationService.icon;
+        ApplicationService.setFormSettings(this);
     }
 
     private void LastStageForm_Load(object sender, EventArgs e) {

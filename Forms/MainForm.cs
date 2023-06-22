@@ -6,16 +6,13 @@ using Newtonsoft.Json.Linq;
 namespace Civilization{
     public partial class MainForm : Form {
         public MainForm(){
-            Image img = (Image)ApplicationService.resourceManager.GetObject("appIcon");
-            Icon ico = new Icon(IconFromImage(img), new Size(64,64));
-            ApplicationService.icon = ico;
+            Icon img = (Icon)ApplicationService.resourceManager.GetObject("appIcon");
+            ApplicationService.icon = img;
             InitializeComponent();
-            MaximizeBox = false;
-            MinimizeBox = false;
-            Icon = ApplicationService.icon;
+            CenterToScreen();
+            ApplicationService.setFormSettings(this);
         }
         private void MainForm_Load(object sender, EventArgs e) {
-            CenterToScreen();
             byte[] allCivsBytes =(byte[]) ApplicationService.resourceManager.GetObject("allCivs");
             var allCivsString = Encoding.UTF8.GetString(allCivsBytes, 0, allCivsBytes.Length);
             var allCivsJson = JObject.Parse(allCivsString);
@@ -28,6 +25,7 @@ namespace Civilization{
 
             foreach (var civilization in allCivsJson) {
                 Civilization civPanel = new(civilization.Key, count);
+                
                 civPanel.Margin = new Padding(0);
                 civPanel.Width = allCivsPanel.Width - SystemInformation.VerticalScrollBarWidth;
                 civPanel.Click += new EventHandler(civ_Click);
@@ -70,11 +68,13 @@ namespace Civilization{
                 Panel unitPanel = new() {
                     Dock = DockStyle.Fill
                 };
+                
                 Panel unitLabelPanel = new() {
                     Dock = DockStyle.Top,
                     Height = 29,
                     Margin = new Padding(0,0,0,4)
                 };
+                
                 SplitContainer unitSplitContainer = new() {
                     Dock = DockStyle.Fill
                 };
@@ -100,8 +100,17 @@ namespace Civilization{
                     Dock = DockStyle.Fill,
                     RowCount = civUnit.info.Count,
                 };
-                for (int i = 0; i < civUnit.info.Count; i++) {
-                    unitInfoTable.RowStyles.Add(new RowStyle(SizeType.Percent, 100 / civUnit.info.Count));
+                if (civUnit.generalName == "Уникальная постройка") {
+                    unitInfoTable.RowStyles.Add(new RowStyle(SizeType.Percent, 75));
+                    unitInfoTable.RowStyles.Add(new RowStyle(SizeType.Percent, 25));
+                }
+                else if (civUnit.generalName == "Уникальное здание") {
+                    unitInfoTable.RowStyles.Add(new RowStyle(SizeType.Percent, 25));
+                    unitInfoTable.RowStyles.Add(new RowStyle(SizeType.Percent, 75));
+                }
+                else {
+                    for (int i = 0; i < civUnit.info.Count; i++) 
+                        unitInfoTable.RowStyles.Add(new RowStyle(SizeType.Percent, 100 / civUnit.info.Count));
                 }
                 foreach (KeyValuePair<string,string> unitInfo in civUnit.info) {
                     Label tmpLabel = new();
@@ -112,38 +121,6 @@ namespace Civilization{
                 }
                 unitSplitContainer.Panel2.Controls.Add(unitInfoTable);
             }
-        }
-        private Icon IconFromImage(Image img) {
-            var ms = new System.IO.MemoryStream();
-            var bw = new System.IO.BinaryWriter(ms);
-            // Header
-            bw.Write((short)0);   // 0 : reserved
-            bw.Write((short)1);   // 2 : 1=ico, 2=cur
-            bw.Write((short)1);   // 4 : number of images
-            // Image directory
-            var w = img.Width;
-            if (w >= 256) w = 0;
-            bw.Write((byte)w);    // 0 : width of image
-            var h = img.Height;
-            if (h >= 256) h = 0;
-            bw.Write((byte)h);    // 1 : height of image
-            bw.Write((byte)0);    // 2 : number of colors in palette
-            bw.Write((byte)0);    // 3 : reserved
-            bw.Write((short)0);   // 4 : number of color planes
-            bw.Write((short)0);   // 6 : bits per pixel
-            var sizeHere = ms.Position;
-            bw.Write((int)0);     // 8 : image size
-            var start = (int)ms.Position + 4;
-            bw.Write(start);      // 12: offset of image data
-            // Image data
-            img.Save(ms, System.Drawing.Imaging.ImageFormat.Png);
-            var imageSize = (int)ms.Position - start;
-            ms.Seek(sizeHere, System.IO.SeekOrigin.Begin);
-            bw.Write(imageSize);
-            ms.Seek(0, System.IO.SeekOrigin.Begin);
-
-            // And load it
-            return new Icon(ms);
         }
     }
 }
