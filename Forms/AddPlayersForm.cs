@@ -56,19 +56,27 @@
         private void addPlayer(string playerName) {
             if (playersControlList.Count < 12) {
                 if (playerName.Trim().Length > 0) {
-                    playersControlList.Add(createPlayer(playerName));
-                    changePlayersPanels();
-                    ApplicationService.addPlayersToTables(playersControlList,playersTable1,playersTable2);
-                    addPlayerInput.Text = "";
-                    if (playersControlList.Count > 1) {
-                        startPickingButton.Enabled = true;
+                    if (playersControlList.Find(x => x.name == playerName) == null) {
+                        playersControlList.Add(createPlayer(playerName));
+                        changePlayersPanels();
+                        ApplicationService.addPlayersToTables(playersControlList, playersTable1, playersTable2);
+                        addPlayerInput.Text = "";
+                        if (playersControlList.Count > 1) {
+                            startPickingButton.Enabled = true;
+                        }
+                    }
+                    else {
+                        addPlayerInput.Text = "";
+                        MessageBox.Show("Ошибка! Игрок с таким именем существует");
                     }
                 }
                 else {
+                    addPlayerInput.Text = "";
                     MessageBox.Show("Ошибка! Некорректное имя игрока!");
                 }
             }
             else {
+                addPlayerInput.Text = "";
                 MessageBox.Show("Ошибка! Превышено максимальное число игроков!");
             }
             

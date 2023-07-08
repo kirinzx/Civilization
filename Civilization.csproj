@@ -726,6 +726,10 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
     <None Remove="Resources\appIcon.png" />
+    <None Remove="Resources\guiIcons\refreshIcon.png" />
+    <EmbeddedResource Include="Resources\guiIcons\refreshIcon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
   </ItemGroup>
 
   <ItemGroup>

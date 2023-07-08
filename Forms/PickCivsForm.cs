@@ -18,6 +18,8 @@ public partial class PickCivsForm : Form {
         this.playersTable1 = playersTable1;
         this.playersTable2 = playersTable2;
         InitializeComponent();
+        shuffleAgainBtn.BackgroundImage = (Image)ApplicationService.resourceManager.GetObject("refreshIcon");
+        shuffleAgainBtn.BackgroundImageLayout = ImageLayout.Zoom;
         playersPanel.Controls.AddRange(new []{playersTable1,playersTable2});
         ApplicationService.setFormSettings(this);
     }
@@ -58,6 +60,7 @@ public partial class PickCivsForm : Form {
             civPanel = (Civilization)((Control)sender).Parent;
         }
         if (!civPanel.isBanned) {
+            shuffleAgainBtn.Enabled = false;
             if (banningStage) {
                 try {
                     Player playerBan = playersList.Find(x => x.banned == false);
@@ -218,17 +221,11 @@ public partial class PickCivsForm : Form {
         }
     }
 
-    private string getCivInfo(Civilization civilization) {
-        string civInfo = "";
-        List<CivilizationUnit> civUnitList = civilization.civInfoList;
-        foreach (CivilizationUnit civUnit in civUnitList) {
-            civInfo += civUnit.generalName + ": " + civUnit.name + "\r\n";
-
-            foreach (KeyValuePair<string,string> unitInfo in civUnit.info) {
-                civInfo += unitInfo.Key + ": " + unitInfo.Value + "\r\n";
-            }
-        }
-
-        return civInfo;
+    private void shuffleAgainBtn_Click(object sender, EventArgs e) {
+        civilizationsPanel.Controls.Clear();
+        civPanelList.Clear();
+        Button btn = sender as Button;
+        btn.Enabled = false;
+        generateCivs();
     }
 }

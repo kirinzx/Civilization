@@ -33,6 +33,7 @@ partial class PickCivsForm {
             this.playersGroupBox = new System.Windows.Forms.GroupBox();
             this.playersPanel = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.shuffleAgainBtn = new System.Windows.Forms.Button();
             this.civilizationsGroupBox.SuspendLayout();
             this.playersGroupBox.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -96,11 +97,21 @@ partial class PickCivsForm {
             this.panel1.Size = new System.Drawing.Size(1045, 80);
             this.panel1.TabIndex = 11;
             // 
+            // shuffleAgainBtn
+            // 
+            this.shuffleAgainBtn.Location = new System.Drawing.Point(1131, 373);
+            this.shuffleAgainBtn.Name = "shuffleAgainBtn";
+            this.shuffleAgainBtn.Size = new System.Drawing.Size(54, 56);
+            this.shuffleAgainBtn.TabIndex = 12;
+            this.shuffleAgainBtn.UseVisualStyleBackColor = true;
+            this.shuffleAgainBtn.Click += new System.EventHandler(this.shuffleAgainBtn_Click);
+            // 
             // PickCivsForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1195, 765);
+            this.Controls.Add(this.shuffleAgainBtn);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.playersGroupBox);
             this.Controls.Add(this.civilizationsGroupBox);
@@ -121,4 +132,5 @@ partial class PickCivsForm {
     private GroupBox playersGroupBox;
     private Panel playersPanel;
     private Panel panel1;
+    private Button shuffleAgainBtn;
 }
